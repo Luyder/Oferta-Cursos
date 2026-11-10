@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Cómo crear el token de GitHub · Editores FacEduc</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Solway:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --tinta:#111; --papel:#fff; --verde:#06a94d; --suave:#e6f6ed; --gris:#5f5f5f; --linea:#e4e4e4; --fondo:#f6f6f3; --aviso:#fff4d6; --borde-aviso:#e0a800; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--fondo); color:var(--tinta); font:400 17px/1.6 'Raleway',system-ui,sans-serif; }
+  header { background:var(--papel); border-bottom:1px solid var(--linea); }
+  .cab { max-width:860px; margin:0 auto; padding:16px 24px; display:flex; align-items:center; gap:16px; }
+  .cab a { margin-left:auto; font-weight:700; font-size:13px; letter-spacing:.12em; text-transform:uppercase; color:var(--tinta); }
+  .marca { font:800 22px 'Solway',serif; }
+  main { max-width:860px; margin:0 auto; padding:32px 24px 80px; }
+  h1 { font:800 clamp(30px,5vw,44px)/1.1 'Solway',serif; margin:0 0 12px; }
+  h2 { font:800 22px/1.25 'Solway',serif; margin:0 0 8px; }
+  .intro { font-size:18px; color:#333; margin:0 0 24px; }
+  .caja { background:var(--papel); border:1.5px solid var(--tinta); border-radius:14px; padding:20px 22px; margin:0 0 18px; }
+  .caja.verde { background:var(--suave); border-color:var(--verde); }
+  .caja.aviso { background:var(--aviso); border-color:var(--borde-aviso); }
+  .caja p:first-child { margin-top:0; } .caja p:last-child, .caja ul:last-child { margin-bottom:0; }
+  .datos { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px 20px; margin:0; }
+  .datos div { font-size:15px; } .datos b { display:block; font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--gris); }
+  ol.pasos { list-style:none; counter-reset:paso; padding:0; margin:28px 0 0; }
+  ol.pasos > li { counter-increment:paso; background:var(--papel); border:1.5px solid var(--linea); border-radius:16px; padding:22px 22px 24px 76px; margin:0 0 18px; position:relative; }
+  ol.pasos > li::before { content:counter(paso); position:absolute; left:20px; top:20px; width:40px; height:40px; border-radius:50%; background:var(--verde); color:#000; font:800 20px/40px 'Solway',serif; text-align:center; }
+  ol.pasos p { margin:0 0 10px; }
+  figure { margin:14px 0 0; }
+  figure img { display:block; max-width:100%; height:auto; border-radius:10px; border:1px solid #2a2f36; box-shadow:0 6px 20px rgba(0,0,0,.12); }
+  figcaption { font-size:14px; color:var(--gris); margin-top:8px; }
+  code, .tecla { font:600 15px ui-monospace,Menlo,monospace; background:#eef0ee; padding:1px 6px; border-radius:5px; }
+  .boton { display:inline-block; margin-top:6px; padding:11px 18px; border-radius:9999px; background:var(--tinta); color:#fff; font-weight:700; font-size:14px; letter-spacing:.06em; text-decoration:none; }
+  .boton:hover { background:var(--verde); color:#000; }
+  .token-ej { font:600 14px ui-monospace,Menlo,monospace; background:#0d1117; color:#7ee787; padding:12px 14px; border-radius:8px; overflow-x:auto; white-space:nowrap; }
+  h3 { font:800 20px 'Solway',serif; margin:40px 0 12px; }
+  dl.problemas dt { font-weight:700; margin-top:14px; } dl.problemas dd { margin:4px 0 0; color:#333; }
+  a { color:var(--verde); }
+  @media (max-width:600px) { ol.pasos > li { padding:70px 16px 18px; } ol.pasos > li::before { top:16px; left:16px; } }
+</style>
+</head>
+<body>
+<header><div class="cab"><span class="marca">Editores FacEduc</span><a href="admin.html">← Volver al editor</a></div></header>
+<main>
+  <h1>Cómo crear el token de GitHub</h1>
+  <p class="intro">El token es una llave que le permite al editor guardar los cambios en el sitio. Se crea una sola vez (y se renueva cuando vence). Toma unos 3 minutos.</p>
+
+  <div class="caja verde">
+    <div class="datos">
+      <div><b>Quién hace qué</b>La cuenta de GitHub <strong>Luyder</strong> (dueña de los sitios) crea el token; luego se pega en el editor del computador donde se vaya a editar</div>
+      <div><b>Sirve para</b>Los dos editores: oferta de cursos y Educación Continua</div>
+      <div><b>Qué permite</b>Solo cambiar archivos de esos dos repositorios</div>
+    </div>
+  </div>
+
+  <div class="caja">
+    <p>Entra a <a href="https://github.com/login" target="_blank" rel="noopener">github.com</a> con la cuenta <strong>Luyder</strong> y sigue los pasos. Si ya iniciaste sesión, puedes ir directo al formulario:</p>
+    <a class="boton" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">Abrir el formulario de token nuevo ↗</a>
+  </div>
+
+  <ol class="pasos">
+    <li>
+      <h2>Abre la página de tokens</h2>
+      <p>En GitHub: foto de perfil ▸ <strong>Settings</strong> ▸ <strong>Developer settings</strong> (al final del menú izquierdo) ▸ <strong>Personal access tokens</strong> ▸ <strong>Fine-grained tokens</strong>. Luego haz clic en <strong>Generate new token</strong>.</p>
+      <figure><img src="tutorial/paso-1.webp" alt="Página Fine-grained tokens con el botón Generate new token" width="800" height="440" loading="lazy"><figcaption>① Fine-grained tokens · ② Generate new token</figcaption></figure>
+    </li>
+    <li>
+      <h2>Ponle nombre y descripción</h2>
+      <p>En <strong>Token name</strong> escribe <code>Editores FacEduc</code>. La descripción es opcional. En <strong>Resource owner</strong> debe aparecer <strong>Luyder</strong> (viene así por defecto).</p>
+      <figure><img src="tutorial/paso-2.webp" alt="Campos Token name, Description y Expiration" width="520" height="610" loading="lazy"><figcaption>① Nombre · ② Descripción · ③ Vencimiento (siguiente paso)</figcaption></figure>
+    </li>
+    <li>
+      <h2>Elige cuándo vence</h2>
+      <p>Abre <strong>Expiration</strong> y elige <strong>Custom</strong> para poner una fecha, por ejemplo el final del año académico (máximo un año). <strong>No elijas «No expiration»</strong>: si el token se pierde, quedaría válido para siempre.</p>
+      <p>Cuando venza, el editor mostrará «el token no es válido o venció»: basta con repetir este tutorial y pegar el nuevo.</p>
+      <figure><img src="tutorial/paso-3.webp" alt="Menú de vencimiento con la opción Custom resaltada" width="520" height="283" loading="lazy"></figure>
+    </li>
+    <li>
+      <h2>Elige los repositorios</h2>
+      <p>En <strong>Repository access</strong> marca <strong>Only select repositories</strong>. Abre <strong>Select repositories</strong>, escribe el nombre y marca la casilla. Hazlo con los dos: <code>Oferta-Cursos</code> y <code>edco-faceduc</code>.</p>
+      <figure><img src="tutorial/paso-4.webp" alt="Selector de repositorios con la búsqueda edco-faceduc" width="520" height="460" loading="lazy"><figcaption>① Only select repositories · ② Select repositories · ③ Buscar · ④ Marcar</figcaption></figure>
+    </li>
+    <li>
+      <h2>Comprueba que estén los dos</h2>
+      <p>Cierra el selector con la <strong>×</strong> de su esquina. Debe decir <strong>Selected 2 repositories</strong> con <code>edco-faceduc</code> y <code>Oferta-Cursos</code>. Luego, en <strong>Permissions</strong>, haz clic en <strong>Add permissions</strong>.</p>
+      <figure><img src="tutorial/paso-5.webp" alt="Los dos repositorios seleccionados y el botón Add permissions" width="520" height="420" loading="lazy"></figure>
+    </li>
+    <li>
+      <h2>Agrega el permiso «Contents»</h2>
+      <p>En el buscador escribe <code>Contents</code> y marca la casilla. Para cerrar el menú haz <strong>clic en una zona vacía</strong> de la página.</p>
+      <div class="caja aviso"><p><strong>Ojo:</strong> no uses la tecla <span class="tecla">Esc</span> en este formulario: GitHub la toma como «Cancelar» y se pierde todo lo que llenaste.</p></div>
+      <figure><img src="tutorial/paso-6.webp" alt="Buscador de permisos con Contents" width="520" height="190" loading="lazy"><figcaption>① Add permissions · ② Escribe Contents · ③ Márcalo</figcaption></figure>
+    </li>
+    <li>
+      <h2>Cámbialo a «Read and write»</h2>
+      <p>Junto a <strong>Contents</strong> aparece <strong>Read-only</strong>. Ábrelo y elige <strong>Read and write</strong> (sin esto el editor no puede guardar).</p>
+      <figure><img src="tutorial/paso-7.webp" alt="Menú de acceso de Contents con Read and write" width="520" height="300" loading="lazy"></figure>
+    </li>
+    <li>
+      <h2>Revisa y genera el token</h2>
+      <p>Debe quedar <strong>Contents: Read and write</strong>. <strong>Metadata</strong> (con «Access: Read-only») aparece sola porque es obligatoria; déjala así. Haz clic en <strong>Generate token</strong> (y confirma si GitHub lo pide).</p>
+      <figure><img src="tutorial/paso-8.webp" alt="Permisos finales y botón Generate token" width="520" height="500" loading="lazy"><figcaption>① Read and write · ② Generate token</figcaption></figure>
+    </li>
+    <li>
+      <h2>Copia el token</h2>
+      <p>GitHub muestra el token <strong>una sola vez</strong>. Es un texto largo que empieza así:</p>
+      <p class="token-ej">github_pat_11ABCDEFG0…</p>
+      <p>Cópialo con el botón de copiar que aparece a su lado. Si cierras la página sin copiarlo, no se puede recuperar: bórralo y crea otro.</p>
+      <div class="caja aviso"><p><strong>Trátalo como una contraseña.</strong> Lo más seguro es que quien lo creó lo pegue directamente en el editor del computador donde se va a editar (paso siguiente), sin enviarlo a nadie. Si de verdad hay que hacerlo llegar a otra persona, usa un gestor de contraseñas para compartirlo; evita el correo, los chats y los documentos, porque ahí queda guardado.</p></div>
+    </li>
+    <li>
+      <h2>Pégalo en el editor</h2>
+      <p>Abre el editor (<code>…/admin.html</code>) y entra a la pestaña <strong>Conexión con GitHub</strong>. En el sitio publicado, usuario y repositorio ya vienen llenos.</p>
+      <p>Pega el token en <strong>Token de GitHub</strong>. Marca <strong>Recordar en este navegador</strong> solo si es un computador personal. Luego haz clic en <strong>Probar conexión</strong>: debe decir «Conexión correcta». El botón de la barra negra cambia a <strong>Publicar en el sitio</strong>.</p>
+      <figure><img src="tutorial/paso-9.webp" alt="Pestaña Conexión con GitHub del editor" width="800" height="595" loading="lazy"><figcaption>① Conexión con GitHub · ② Token · ③ Recordar (opcional) · ④ Probar conexión. El editor de Educación Continua tiene la misma pestaña.</figcaption></figure>
+    </li>
+  </ol>
+
+  <h3>Si algo sale mal</h3>
+  <dl class="problemas">
+    <dt>«El token no es válido o venció»</dt>
+    <dd>Venció o se copió incompleto. Crea uno nuevo (pasos 1 a 9) y pégalo en el editor (paso 10).</dd>
+    <dt>«El token no tiene permiso de escritura en el repositorio»</dt>
+    <dd>Falta <strong>Read and write</strong> en Contents, o el repositorio no quedó marcado. En GitHub ▸ Fine-grained tokens, haz clic en el token ▸ <strong>Edit</strong> y corrígelo; no hace falta crear otro.</dd>
+    <dt>«No se encontró el repositorio, la rama o la carpeta»</dt>
+    <dd>Revisa en la pestaña Conexión con GitHub que el usuario sea <code>Luyder</code> y el repositorio sea el del sitio (<code>Oferta-Cursos</code> o <code>edco-faceduc</code>), rama <code>main</code>.</dd>
+    <dt>Se perdió el computador o el token se compartió por error</dt>
+    <dd>En GitHub ▸ Fine-grained tokens, borra el token (<strong>Delete</strong>). Deja de funcionar de inmediato. Luego crea uno nuevo.</dd>
+  </dl>
+</main>
+</body>
+</html>

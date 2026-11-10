@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Editor · Oferta de cursos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&family=Solway:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body class="admin">
+
+<header class="ad-cab">
+  <span class="ad-marca">Cursos</span>
+  <div class="ad-titulo">Editor de la oferta</div>
+  <a class="ad-ver" href="index.html" target="_blank" rel="noopener">Ver sitio ↗</a>
+</header>
+
+<div class="ad-barra" id="barra">
+  <span class="ad-estado" id="estado">Sin cambios</span>
+  <span class="ad-modo" id="modo"></span>
+  <button class="boton" id="descartar" hidden>Descartar cambios</button>
+  <button class="boton negro" id="guardar">Publicar</button>
+</div>
+
+<main class="ad-main">
+  <nav class="ad-tabs" role="tablist">
+    <button role="tab" data-tab="cursos" aria-selected="true">Cursos</button>
+    <button role="tab" data-tab="profes" aria-selected="false">Profesores</button>
+    <button role="tab" data-tab="github" aria-selected="false">Conexión con GitHub</button>
+  </nav>
+
+  <section class="ad-panel" id="tab-cursos">
+    <div class="ad-dos">
+      <aside class="ad-lista">
+        <div class="ad-lista-cab">
+          <input class="campo" id="filtro-cursos" type="search" placeholder="Buscar curso…" aria-label="Buscar curso">
+          <button class="boton negro" id="nuevo-curso">+ Nuevo curso</button>
+        </div>
+        <ol id="lista-cursos"></ol>
+      </aside>
+      <div class="ad-form" id="form-curso"></div>
+    </div>
+  </section>
+
+  <section class="ad-panel" id="tab-profes" hidden>
+    <div class="ad-dos">
+      <aside class="ad-lista">
+        <div class="ad-lista-cab">
+          <input class="campo" id="filtro-profes" type="search" placeholder="Buscar profesor…" aria-label="Buscar profesor">
+          <button class="boton negro" id="nuevo-profe">+ Nuevo profesor</button>
+        </div>
+        <ol id="lista-profes"></ol>
+      </aside>
+      <div class="ad-form" id="form-profe"></div>
+    </div>
+  </section>
+
+  <section class="ad-panel" id="tab-github" hidden>
+    <div class="ad-form ad-gh" id="form-github"></div>
+  </section>
+</main>
+
+<div class="ad-toast" id="toast" role="status" hidden></div>
+
+<script src="datos.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
