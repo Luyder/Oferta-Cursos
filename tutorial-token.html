@@ -53,7 +53,7 @@
     <div class="datos">
       <div><b>Quién hace qué</b>La cuenta de GitHub <strong>Luyder</strong> (dueña de los sitios) crea el token; luego se pega en el editor del computador donde se vaya a editar</div>
       <div><b>Sirve para</b>Los dos editores: oferta de cursos y Educación Continua</div>
-      <div><b>Qué permite</b>Solo cambiar archivos de esos dos repositorios</div>
+      <div><b>Qué permite</b>Solo cambiar archivos de esos dos repositorios y ejecutar su actualización automática</div>
     </div>
   </div>
 
@@ -90,19 +90,19 @@
       <figure><img src="tutorial/paso-5.webp" alt="Los dos repositorios seleccionados y el botón Add permissions" width="520" height="420" loading="lazy"></figure>
     </li>
     <li>
-      <h2>Agrega el permiso «Contents»</h2>
-      <p>En el buscador escribe <code>Contents</code> y marca la casilla. Para cerrar el menú haz <strong>clic en una zona vacía</strong> de la página.</p>
+      <h2>Agrega los permisos «Contents» y «Actions»</h2>
+      <p>En el buscador escribe <code>Contents</code> y marca la casilla. Luego borra el texto, escribe <code>Actions</code> y márcala también (la usa el botón «Actualizar desde el portal» del editor de Educación Continua). Para cerrar el menú haz <strong>clic en una zona vacía</strong> de la página.</p>
       <div class="caja aviso"><p><strong>Ojo:</strong> no uses la tecla <span class="tecla">Esc</span> en este formulario: GitHub la toma como «Cancelar» y se pierde todo lo que llenaste.</p></div>
-      <figure><img src="tutorial/paso-6.webp" alt="Buscador de permisos con Contents" width="520" height="190" loading="lazy"><figcaption>① Add permissions · ② Escribe Contents · ③ Márcalo</figcaption></figure>
+      <figure><img src="tutorial/paso-6.webp" alt="Buscador de permisos con Contents" width="520" height="190" loading="lazy"><figcaption>① Add permissions · ② Escribe Contents · ③ Márcalo. Repite ② y ③ con Actions.</figcaption></figure>
     </li>
     <li>
-      <h2>Cámbialo a «Read and write»</h2>
-      <p>Junto a <strong>Contents</strong> aparece <strong>Read-only</strong>. Ábrelo y elige <strong>Read and write</strong> (sin esto el editor no puede guardar).</p>
+      <h2>Cámbialos a «Read and write»</h2>
+      <p>Junto a <strong>Contents</strong> aparece <strong>Read-only</strong>. Ábrelo y elige <strong>Read and write</strong> (sin esto el editor no puede guardar). Haz lo mismo con <strong>Actions</strong>.</p>
       <figure><img src="tutorial/paso-7.webp" alt="Menú de acceso de Contents con Read and write" width="520" height="300" loading="lazy"></figure>
     </li>
     <li>
       <h2>Revisa y genera el token</h2>
-      <p>Debe quedar <strong>Contents: Read and write</strong>. <strong>Metadata</strong> (con «Access: Read-only») aparece sola porque es obligatoria; déjala así. Haz clic en <strong>Generate token</strong> (y confirma si GitHub lo pide).</p>
+      <p>Deben quedar <strong>Contents</strong> y <strong>Actions</strong> en <strong>Read and write</strong> (en la imagen solo se ve Contents). <strong>Metadata</strong> (con «Access: Read-only») aparece sola porque es obligatoria; déjala así. Haz clic en <strong>Generate token</strong> (y confirma si GitHub lo pide).</p>
       <figure><img src="tutorial/paso-8.webp" alt="Permisos finales y botón Generate token" width="520" height="500" loading="lazy"><figcaption>① Read and write · ② Generate token</figcaption></figure>
     </li>
     <li>
@@ -125,7 +125,7 @@
     <dt>«El token no es válido o venció»</dt>
     <dd>Venció o se copió incompleto. Crea uno nuevo (pasos 1 a 9) y pégalo en el editor (paso 10).</dd>
     <dt>«El token no tiene permiso de escritura en el repositorio»</dt>
-    <dd>Falta <strong>Read and write</strong> en Contents, o el repositorio no quedó marcado. En GitHub ▸ Fine-grained tokens, haz clic en el token ▸ <strong>Edit</strong> y corrígelo; no hace falta crear otro.</dd>
+    <dd>Falta <strong>Read and write</strong> en Contents (o en Actions, si el aviso lo menciona), o el repositorio no quedó marcado. En GitHub ▸ Fine-grained tokens, haz clic en el token ▸ <strong>Edit</strong> y corrígelo; no hace falta crear otro.</dd>
     <dt>«No se encontró el repositorio, la rama o la carpeta»</dt>
     <dd>Revisa en la pestaña Conexión con GitHub que el usuario sea <code>Luyder</code> y el repositorio sea el del sitio (<code>Oferta-Cursos</code> o <code>edco-faceduc</code>), rama <code>main</code>.</dd>
     <dt>Se perdió el computador o el token se compartió por error</dt>
