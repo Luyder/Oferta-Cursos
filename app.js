@@ -62,12 +62,15 @@ const cursosDe = (pid) => CURSOS.filter(c => c.secciones.some(s => (s.profesores
 const state = { view: 'home', posTab: 0, search: '', modality: 'all', requirement: 'all' };
 const app = document.getElementById('app');
 let searchFocus = false;
+let animar = true;   // las tarjetas entran en cascada al navegar o filtrar, no al escribir en el buscador
+const entra = () => (animar ? ' entra' : '');
 
 function render() {
-  if (state.view === 'home') return renderHome();
-  if (state.view === 'pregrado') return renderList();
-  if (state.view === 'posgrado') return renderPosgrado();
-  if (state.view === 'profes') return renderProfes();
+  if (state.view === 'home') renderHome();
+  else if (state.view === 'pregrado') renderList();
+  else if (state.view === 'posgrado') renderPosgrado();
+  else if (state.view === 'profes') renderProfes();
+  animar = false;
 }
 const tabBtn = (v, l, active) => '<button class="tab' + (active === v ? ' active' : '') + '" onclick="go(\'' + v + '\')">' + l + '</button>';
 function header(active) {
@@ -76,25 +79,26 @@ function header(active) {
     + '<div class="tabs">' + tabBtn('pregrado', 'Pregrado', active) + tabBtn('posgrado', 'Posgrado', active) + tabBtn('profes', 'Profes', active) + '</div>'
     + '</div></header>';
 }
-const navBtn = (v, l, cls) => '<button class="navbtn ' + cls + '" onclick="go(\'' + v + '\')"><span class="fill"></span><span class="t">' + l + '</span></button>';
+const navBtn = (v, l, cls, n) => '<button class="navbtn ' + cls + '" onclick="go(\'' + v + '\')"><span class="fill"></span><span class="t">' + l + '</span><span class="n">' + n + '</span></button>';
 function renderHome() {
   app.innerHTML = '<div class="home">'
     + '<div class="blob" style="top:-128px;right:-128px;width:384px;height:384px"></div>'
     + '<div class="blob" style="bottom:-160px;left:-160px;width:448px;height:448px"></div>'
-    + '<div class="inner"><div><h1 class="display">Cursos</h1><p class="sub display">Facultad de Educación</p><div class="rule"></div></div>'
-    + '<div class="navgrid"><div class="navgrid two">' + navBtn('pregrado', 'PREGRADO', '') + navBtn('posgrado', 'POSGRADO', '') + '</div>' + navBtn('profes', 'PROFES', 'small') + '</div>'
-    + '<footer class="foot">Universidad de los Andes · Facultad de Educación · Oferta 2026-2</footer>'
+    + '<div class="inner"><div class="hero"><span class="periodo">Oferta 2026-2</span><h1 class="display">Cursos</h1><p class="sub display">Facultad de Educación</p><div class="rule"></div></div>'
+    + '<div class="navgrid"><div class="navgrid two">' + navBtn('pregrado', 'PREGRADO', '', PREGRADO.length + ' cursos') + navBtn('posgrado', 'POSGRADO', '', POSGRADO.length + ' cursos') + '</div>'
+    + navBtn('profes', 'PROFES', 'small', PROFS.length + ' profesores') + '</div>'
+    + '<img class="logo" src="assets/logo-faceduc.webp" alt="Universidad de los Andes · Facultad de Educación · 10 años transformando la educación" width="900" height="123">'
     + '</div></div>';
 }
 
-function courseCard(c, track) {
+function courseCard(c, track, i) {
   const isPos = ['MS', 'ESP', 'DOC'].includes(c.tipo);
   const reqs = isPos ? requirementsForTrack(c.obligatoriaEn, c.electivaEn, track) : [];
   let reqHtml = '';
   if (reqs.length) reqHtml = '<div class="reqs">' + reqs.map(r => '<span class="badge ' + (r === 'obligatoria' ? 'oblig' : 'elect') + '">' + (r === 'obligatoria' ? 'OBLIGATORIA' : 'ELECTIVA') + '</span>').join('') + '</div>';
   const secBadge = c.secciones.length > 1 ? '<span class="badge sec">' + c.secciones.length + ' secc.</span>' : '';
   const img = c.imagen ? '<img src="' + esc(c.imagen) + '" alt="" loading="lazy">' : '<span class="noimg">Sin imagen</span>';
-  return '<button class="card" onclick="openCourse(' + jsq(c.id) + ')">'
+  return '<button class="card" style="--i:' + Math.min(i, 11) + '" onclick="openCourse(' + jsq(c.id) + ')">'
     + '<div class="head"><h3 class="display">' + esc(c.titulo) + (c.titulo2 ? '<br>' + esc(c.titulo2) : '') + '</h3></div>'
     + '<div class="imgarea">' + img + reqHtml
     + '<div class="foot">' + secBadge + '<span class="badge cat">' + (c.categoria === 'pregrado' ? 'PREGRADO' : 'POSGRADO') + '</span></div>'
@@ -128,14 +132,17 @@ function applyFilters(courses, track) {
     return true;
   });
 }
-const searchBox = () => '<div class="search"><span class="ic">⌕</span><input type="search" placeholder="Buscar curso por nombre…" value="' + esc(state.search) + '" oninput="onSearch(this.value)"></div>';
-const gridHtml = (list, track) => list.length ? '<div class="grid">' + list.map(c => courseCard(c, track)).join('') + '</div>' : '<p class="empty">No hay cursos que coincidan.</p>';
+const LUPA = '<svg class="ic" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>';
+const searchBox = () => '<div class="search">' + LUPA + '<input type="search" aria-label="Buscar curso por nombre" placeholder="Buscar curso por nombre…" value="' + esc(state.search) + '" oninput="onSearch(this.value)">'
+  + (state.search ? '<button class="limpiar" aria-label="Borrar búsqueda" onclick="clearSearch()">×</button>' : '') + '</div>';
+const gridHtml = (list, track) => list.length ? '<div class="grid' + entra() + '">' + list.map((c, i) => courseCard(c, track, i)).join('') + '</div>' : '<p class="empty">No hay cursos que coincidan.</p>';
+const conteo = (n, total) => (n < total ? '<p class="conteo">Mostrando ' + n + ' de ' + total + ' cursos</p>' : '');
 const footerHtml = () => '<footer class="foot">Universidad de los Andes · Facultad de Educación · Oferta 2026-2</footer>';
 
 function renderList() {
-  app.innerHTML = header('pregrado') + '<div class="wrap">'
+  app.innerHTML = header('pregrado') + '<div class="wrap' + entra() + '">'
     + '<div class="sechead"><h2 class="display">Pregrado</h2><p>' + PREGRADO.length + ' cursos · 2026-2</p></div>'
-    + searchBox() + filterBar(PREGRADO) + gridHtml(applyFilters(PREGRADO)) + footerHtml() + '</div>';
+    + searchBox() + filterBar(PREGRADO) + (() => { const l = applyFilters(PREGRADO); return conteo(l.length, PREGRADO.length) + gridHtml(l); })() + footerHtml() + '</div>';
   restoreSearchFocus();
 }
 function renderPosgrado() {
@@ -146,36 +153,42 @@ function renderPosgrado() {
   let pt = '<div class="ptabs">';
   sections.forEach((s, i) => {
     const on = i === state.posTab ? (s.dark ? 'on-dark' : 'on-green') : '';
-    pt += '<button class="ptab ' + on + '" onclick="setPosTab(' + i + ')">' + s.label + (s.sublabel ? '<span class="sl">' + s.sublabel + '</span>' : '') + ' (' + s.courses.length + ')</button>';
+    pt += '<button class="ptab ' + on + '" onclick="setPosTab(' + i + ')">' + s.label + (s.sublabel ? ' <span class="sl">' + s.sublabel + '</span>' : '') + '<span class="cnt">' + s.courses.length + '</span></button>';
   });
   pt += '</div>';
-  const small = (t, m) => '<p style="margin:' + m + ' 0 0;font-size:.72rem;letter-spacing:.15em;text-transform:uppercase;color:#9a9a9a">' + t + '</p>';
-  app.innerHTML = header('posgrado') + '<div class="wrap">'
+  const lista = applyFilters(cur.courses, cur.key);
+  app.innerHTML = header('posgrado') + '<div class="wrap' + entra() + '">'
     + '<div class="sechead"><h2 class="display">Posgrado</h2><p>' + POSGRADO.length + ' cursos · 2026-2</p></div>' + pt
-    + '<div class="psechead"><div class="barv" style="background:' + (cur.dark ? '#000' : 'var(--green)') + '"></div>'
-    + '<div><h2 class="display" style="font-size:1.5rem;margin:0">' + cur.label + '</h2>'
-    + (cur.sublabel ? small(cur.sublabel, '.2rem') : '') + small(cur.courses.length + ' cursos · 2026-2', '.1rem') + '</div></div>'
-    + searchBox() + filterBar(cur.courses, cur.key) + gridHtml(applyFilters(cur.courses, cur.key), cur.key) + footerHtml() + '</div>';
+    + searchBox() + filterBar(cur.courses, cur.key) + conteo(lista.length, cur.courses.length) + gridHtml(lista, cur.key) + footerHtml() + '</div>';
   restoreSearchFocus();
 }
 const iniciales = (n) => n.split(' ').slice(0, 2).map(w => w[0] || '').join('');
 function renderProfes() {
-  const cards = PROFS.map(p => {
+  const cards = PROFS.map((p, i) => {
     const n = cursosDe(p.id).length;
     const ph = p.imagen ? '<img src="' + esc(p.imagen) + '" alt="" loading="lazy">' : '<span class="ini display">' + esc(iniciales(p.nombre)) + '</span>';
-    return '<button class="pcard" onclick="openProf(' + jsq(p.id) + ')"><div class="ph">' + ph + '</div>'
+    return '<button class="pcard" style="--i:' + Math.min(i, 11) + '" onclick="openProf(' + jsq(p.id) + ')"><div class="ph">' + ph + '</div>'
       + '<div><p class="pn display">' + esc(p.nombre) + '</p>' + (p.cargo ? '<p class="pr">' + esc(p.cargo) + '</p>' : '')
       + (n ? '<p class="pc">' + n + (n === 1 ? ' curso' : ' cursos') + '</p>' : '') + '</div></button>';
   }).join('');
-  app.innerHTML = header('profes') + '<div class="wrap">'
+  app.innerHTML = header('profes') + '<div class="wrap' + entra() + '">'
     + '<div class="sechead"><h2 class="display">Profes de la Facu</h2><p>' + PROFS.length + ' profesores</p></div>'
-    + '<div class="pgrid">' + cards + '</div>' + footerHtml() + '</div>';
+    + '<div class="pgrid' + entra() + '">' + cards + '</div>' + footerHtml() + '</div>';
 }
 
 /* ---- fichas (drawers) ---- */
-function closeDrawer() { const b = document.getElementById('drawer-root'); if (b) b.remove(); document.body.style.overflow = ''; }
+function closeDrawer(instantaneo) {
+  const b = document.getElementById('drawer-root');
+  if (!b) return;
+  b.removeAttribute('id');
+  document.body.style.overflow = '';
+  const rapido = instantaneo === true || matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (rapido) { b.remove(); return; }
+  b.classList.add('saliendo');
+  setTimeout(() => b.remove(), 260);
+}
 function mountDrawer(html) {
-  closeDrawer();
+  closeDrawer(true);
   const div = document.createElement('div'); div.id = 'drawer-root';
   div.innerHTML = '<div class="backdrop" onclick="closeDrawer()"></div><div class="drawer" role="dialog" aria-modal="true">' + html + '</div>';
   document.body.appendChild(div); document.body.style.overflow = 'hidden';
@@ -230,11 +243,12 @@ function openProf(id) {
 }
 
 /* ---- acciones ---- */
-function go(v) { state.view = v; state.search = ''; state.modality = 'all'; state.requirement = 'all'; state.posTab = 0; closeDrawer(); window.scrollTo(0, 0); render(); }
+function go(v) { state.view = v; state.search = ''; state.modality = 'all'; state.requirement = 'all'; state.posTab = 0; closeDrawer(true); window.scrollTo(0, 0); animar = true; render(); }
 function onSearch(v) { state.search = v; searchFocus = true; render(); }
-function setMod(m) { state.modality = m; searchFocus = false; render(); }
-function setReq(r) { state.requirement = r; searchFocus = false; render(); }
-function setPosTab(i) { state.posTab = i; state.requirement = 'all'; state.modality = 'all'; renderPosgrado(); }
+function setMod(m) { state.modality = m; searchFocus = false; animar = true; render(); }
+function setReq(r) { state.requirement = r; searchFocus = false; animar = true; render(); }
+function clearSearch() { state.search = ''; searchFocus = true; animar = true; render(); }
+function setPosTab(i) { state.posTab = i; state.requirement = 'all'; state.modality = 'all'; animar = true; render(); }
 function restoreSearchFocus() { if (searchFocus) { const el = app.querySelector('input[type=search]'); if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); } searchFocus = false; } }
 
 render();
