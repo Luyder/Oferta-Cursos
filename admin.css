@@ -106,3 +106,15 @@ body.admin { margin: 0; background: var(--fondo-alt); color: var(--tinta); font-
   .ad-form { padding: 18px; }
   .ad-bloque { grid-template-columns: 1fr 1fr; }
 }
+
+/* Periodo y actualización desde Oferta de Cursos */
+.ad-periodo { display: grid; gap: 4px; font: 700 11px var(--mono); letter-spacing: .14em; text-transform: uppercase; }
+.ad-periodo .campo { text-transform: none; letter-spacing: 0; font-weight: 500; }
+.ad-modal { position: fixed; inset: 0; z-index: 40; display: grid; place-items: center; padding: 16px; background: rgba(0,0,0,.5); }
+.ad-modal-caja { width: min(640px, 100%); max-height: calc(100dvh - 32px); overflow-y: auto; background: var(--papel); border: 1.5px solid var(--tinta); border-radius: 14px; padding: 24px; display: grid; gap: 12px; }
+.ad-modal-caja h2 { font: 800 24px/1.15 var(--display); margin: 0; text-transform: uppercase; }
+.ad-modal-caja .sub { margin: 0; font-size: 14px; color: var(--gris); }
+.ad-modal-caja details { border: 1.5px solid var(--linea); border-radius: 10px; padding: 10px 14px; }
+.ad-modal-caja summary { cursor: pointer; font-size: 15px; }
+.ad-modal-caja ul { margin: 8px 0 0; padding-left: 20px; font-size: 14px; max-height: 220px; overflow-y: auto; }
+.ad-modal-botones { display: flex; gap: 10px; justify-content: flex-end; margin-top: 6px; }

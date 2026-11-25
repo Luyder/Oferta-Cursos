@@ -18,12 +18,8 @@ window.OFERTA = {
       "modalidad": "HÍBRIDA",
       "imagen": "media/course-90.png",
       "descripcion": [
-        "Ser un espacio de pensamiento crítico y acción transformadora frente a la integración de la",
-        "inteligencia artificial generativa (IAGen) en la educación. Este semillero busca formar",
-        "educadorxs que usan la IA como interlocutora pedagógica, comprendiendo la importancia de",
-        "fomentar, ejercer y cultivar la agencia humana en el centro de las decisiones educativas.",
-        "Promovemos la co-inteligencia, la alfabetización digital crítica y situada, y el diseño de futuros",
-        "educativos deseables centrados en el ser humano."
+        "Ser un espacio de pensamiento crítico y acción transformadora frente a la integración de la inteligencia artificial generativa (IAGen) en la educación. Este semillero busca formar educadorxs que usan la IA como interlocutora pedagógica, comprendiendo la importancia de fomentar, ejercer y cultivar la agencia humana en el centro de las decisiones educativas.",
+        "Promovemos la co-inteligencia, la alfabetización digital crítica y situada, y el diseño de futuros educativos deseables centrados en el ser humano."
       ],
       "obligatoriaEn": [],
       "electivaEn": [],
@@ -39,7 +35,8 @@ window.OFERTA = {
     },
     {
       "id": "c89",
-      "titulo": "NEURODESARROLLO Y REGULACIÓN EMOCIONAL EN LA PRIMERA IFANCIA",
+      "oculto": true,
+      "titulo": "NEURODESARROLLO Y REGULACIÓN EMOCIONAL EN LA PRIMERA INFANCIA",
       "categoria": "pregrado",
       "tipo": "LIC",
       "codigo": "EDUC-2014",
@@ -87,14 +84,14 @@ window.OFERTA = {
           "nrc": "84632",
           "horario": [
             {
-              "dia": "LUNES",
-              "inicio": "2:00 PM",
-              "fin": "3:20 PM"
+              "dia": "MARTES",
+              "inicio": "12:30 PM",
+              "fin": "1:50 PM"
             },
             {
-              "dia": "MIÉRCOLES",
-              "inicio": "2:00 PM",
-              "fin": "3:20 PM"
+              "dia": "JUEVES",
+              "inicio": "12:30 PM",
+              "fin": "1:50 PM"
             }
           ],
           "profesores": [
@@ -113,7 +110,9 @@ window.OFERTA = {
       "semanas": 16,
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-87.webp",
-      "descripcion": [],
+      "descripcion": [
+        "El curso aborda varias maneras de concebir la democracia y por diferentes relaciones que aparecen entre ella y la educación. Pero el interés principal aparece en el uso de estos elementos teóricos para la propia formación ética y ciudadana, para preguntarnos por las implicaciones que tienen para la propia vida. Así, en cada tema que trabajamos, abordamos alguna idea o principio central, o algún debate o preocupación propia de él, y nos preguntamos cómo nos toca, cómo somos a veces parte de los problemas, o qué nos demanda. La idea es examinar críticamente nuestras actitudes y emociones, entendiéndolas como claves en nuestro carácter y por lo tanto también para definir en últimas nuestras acciones en nuestra condición de ciudadanes y de miembros de una comunidad educativa. Este examen reconoce que hemos desarrollado —o dejado de desarrollar— dichas emociones y actitudes en contexto sociales y culturales particulares que también es necesario examinar. Así, este curso se alinea con la filosofía general que guía el CBU y en general a la educación integral uniandina al ayudarnos a desarrollar tanto unas comprensiones críticas particulares de 1) temas sustantivos de educación y democracia, y de 2) nuestra propia manera de ser en esos dos ámbitos de la educación y la ciudadanía; como a desarrollar competencias para continuar enriqueciendo esas comprensiones en el futuro. A les estudiantes este curso les servirá para reconocer y asumir más plenamente su vida en sus diferentes ámbitos, incluido el laboral, desde una comprensión más profunda de sus posibilidades y responsabilidades en la construcción colectiva de dichos ámbitos."
+      ],
       "obligatoriaEn": [],
       "electivaEn": [],
       "secciones": [
@@ -121,14 +120,14 @@ window.OFERTA = {
           "nrc": "84803",
           "horario": [
             {
-              "dia": "MIÉRCOLES",
-              "inicio": "11:00 AM",
-              "fin": "12:20 PM"
+              "dia": "MARTES",
+              "inicio": "2:00 PM",
+              "fin": "3:20 PM"
             },
             {
-              "dia": "VIERNES",
-              "inicio": "11:00 AM",
-              "fin": "12:20 PM"
+              "dia": "JUEVES",
+              "inicio": "2:00 PM",
+              "fin": "3:20 PM"
             }
           ],
           "profesores": [
@@ -139,6 +138,7 @@ window.OFERTA = {
     },
     {
       "id": "c86",
+      "oculto": true,
       "titulo": "CBU - PENSAR, SENTIR Y APRENDER EN TIEMPOS DE IA",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -173,6 +173,7 @@ window.OFERTA = {
     },
     {
       "id": "c85",
+      "oculto": true,
       "titulo": "CBU -EXPERIMENTOS DE POLÍTICA SOCIAL: ¿QUÉ SABEMOS Y A DÓNDE VAMOS?",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -216,37 +217,49 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-84.webp",
       "descripcion": [
-        "El aprendizaje es uno de los procesos psicológicos más intrigantes. Por una parte, es central a la adaptación de los organismos al ambiente y por esta razón pasa desapercibido. Por otro lado, requiere condiciones muy precisas para su ocurrencia y es relativamente raro en ciertas condiciones. Además, es el producto de complejos procesos biológicos, cognitivos y socioculturales. Pero, sobre todo, el aprendizaje es, en últimas, una condición necesaria para el logro de los objetivos educativos y para la recreación permanente de la cultura.",
+        "El aprendizaje es uno de los procesos psicológicos más intrigantes. Por una parte, es central a la adaptación de los organismos al ambiente y por esta razón pasa desapercibido. Por otro lado, requiere condiciones muy precisas para su ocurrencia y es relativamente raro en ciertas ocasiones. Además, es el producto de complejos procesos biológicos, cognitivos y socioculturales. Pero, sobre todo, el aprendizaje es, en últimas, una condición necesaria para el logro de los objetivos educativos y para la recreación permanente de la cultura. Dicho de manera simple, sin aprendizaje no hay educación.",
+        "¿Qué es el aprendizaje? ¿Cómo ocurre? ¿Cómo podemos promover el aprendizaje y saber que alguien ha aprendido? En este curso estudiaremos las principales teorías que han intentado responder estas preguntas: las teorías conductistas, las teorías cognitivas y la teoría sociocultural. Este recorrido nos llevará a comprender que no hay una única respuesta para esas preguntas y que, por el contrario, el aprendizaje ha sido definido y explicado de diferentes maneras. Este curso parte de la idea de que todas esas teorías tienen fortalezas que deben ser valoradas cuando se trata de entender los problemas que supone la educación. Adicionalmente, al estudiar esas teorías veremos que, aunque solo algunas de ellas hicieron planteamientos explícitos para la educación, todas tienen implicaciones importantes para la práctica pedagógica. A lo largo del curso prestaremos especial atención a esas implicaciones para que, al final del semestre, comprendan el lugar que esas teorías puede tener en su práctica futura como educadores.",
         "Dicho de manera simple, sin aprendizaje no hay educación. ¿Qué es el aprendizaje? ¿Cómo ocurre? ¿Cómo podemos promover el aprendizaje y saber que alguien ha aprendido?",
         "En este curso estudiaremos las principales teorías que han intentado responder estas preguntas: las teorías conductistas, las teorías cognitivas y la teoría sociocultural. Este recorrido nos llevará a comprender que no hay una única respuesta para esas preguntas y que, por el contrario, el aprendizaje ha sido definido y explicado de diferentes maneras.",
         "Este curso parte de la idea de que todas esas teorías tienen fortalezas que deben ser valoradas cuando se trata de entender los problemas que supone la educación. Adicionalmente, al estudiar esas teorías veremos que, aunque solo algunas de ellas hicieron planteamientos explícitos para la educación, todas tienen implicaciones importantes para la práctica pedagógica.",
         "A lo largo del curso prestaremos especial atención a esas implicaciones para que, al final del semestre, cada uno de los estudiantes comprenda el lugar que esas teorías puede tener en la práctica pedagógica."
       ],
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "74944",
           "horario": [
             {
-              "dia": "VIERNES",
+              "dia": "MIÉRCOLES",
               "inicio": "8:00 AM",
               "fin": "9:50 AM"
             },
             {
-              "dia": "MIÉRCOLES",
+              "dia": "JUEVES",
               "inicio": "8:00 AM",
               "fin": "9:50 AM"
             }
           ],
           "profesores": [
-            "p15"
+            "p14"
           ]
         }
       ]
     },
     {
       "id": "c83",
+      "oculto": true,
       "titulo": "DIVERSIDAD Y EDUCACIÓN",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -258,7 +271,17 @@ window.OFERTA = {
       "descripcion": [
         "Una educación de calidad valora la diversidad y genera equidad de oportunidades para que todos los integrantes de la comunidad educativa participen y aporten a los procesos de enseñanza-aprendizaje que les unen. Sin embargo, históricamente, la educación ha tendido a homogeneizar a los estudiantes y promover epistemologías hegemónicas, por lo tanto se han generado procesos de exclusión. Este contexto convoca a los educadores a pensarse ¿cómo transformar la educación para lograr procesos incluyentes, que reconozcan y acojan la diversidad humana? En este curso analizaremos las distintas formas en que marcadores de identidad interactúan con las prácticas culturales de exclusión en la educación y las posibilidades de una educación inclusiva."
       ],
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -278,6 +301,7 @@ window.OFERTA = {
     },
     {
       "id": "c82",
+      "oculto": true,
       "titulo": "SEMILLERO DE INVESTIGACION",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -316,7 +340,7 @@ window.OFERTA = {
       "electivaEn": [],
       "secciones": [
         {
-          "nrc": "81683",
+          "nrc": "85856",
           "horario": [],
           "profesores": [
             "p14"
@@ -341,7 +365,7 @@ window.OFERTA = {
       "electivaEn": [],
       "secciones": [
         {
-          "nrc": "82467",
+          "nrc": "85750",
           "horario": [],
           "profesores": []
         }
@@ -349,6 +373,7 @@ window.OFERTA = {
     },
     {
       "id": "c79",
+      "oculto": true,
       "titulo": "INVESTIGACIÓN EN EDUCACIÓN",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -358,7 +383,17 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-79.webp",
       "descripcion": [],
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -378,6 +413,7 @@ window.OFERTA = {
     },
     {
       "id": "c78",
+      "oculto": true,
       "titulo": "INVESTIGACIÓN ACCIÓN EN EL AULA",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -391,7 +427,17 @@ window.OFERTA = {
       ],
       "prerrequisitos": "INVESTIGACIÓN EN EDUCACIÓN Y PRÁCTICA FORMATIVA 1.",
       "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.",
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -411,6 +457,7 @@ window.OFERTA = {
     },
     {
       "id": "c77",
+      "oculto": true,
       "titulo": "CALIDAD DE LAS INTERACCIONES EN LA PRIMERA INFANCIA",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -444,6 +491,7 @@ window.OFERTA = {
     },
     {
       "id": "c76",
+      "oculto": true,
       "titulo": "EVALUACION DEL APRENDIZAJE",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -457,7 +505,17 @@ window.OFERTA = {
       ],
       "prerrequisitos": "PRÁCTICA FORMATIVA 1.",
       "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.",
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -477,6 +535,7 @@ window.OFERTA = {
     },
     {
       "id": "c75",
+      "oculto": true,
       "titulo": "CLIMA DE AULA Y COMPETENCIAS SOCIOEMOCIONALES",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -489,7 +548,17 @@ window.OFERTA = {
         "El aula es un espacio dinámico en el que, además de las actividades específicas de enseñanza académica, ocurre una multiplicidad de interacciones igualmente formativas. Los profesores, como líderes de buena parte de las experiencias que suceden en el aula, tienen el reto de manejar (gestionar) el aula para garantizar que los estudiantes aprovechen al máximo las oportunidades de aprendizaje que sus maestros les ofrecen. Aproximaciones recientes amplían la visión tradicional del manejo de aula para considerarlo como las acciones que los docentes realizan para crear un ambiente que apoye y facilite tanto el aprendizaje académico como el social, emocional y moral. En otras palabras, el manejo de aula no sólo busca establecer y mantener un ambiente ordenado y eficiente para que los estudiantes se involucren en un aprendizaje académico significativo, sino que también busca promover el crecimiento social y moral de los estudiantes. En este curso abordaremos el manejo de aula desde esta perspectiva, desarrollando en sus participantes competencias docentes que les permitan construir un clima de aula propicio para la formación de ciudadanos democráticos: participativos, activos, críticos, autónomos y cuidadosos."
       ],
       "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.",
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -518,15 +587,39 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-74.webp",
       "descripcion": [
-        "La práctica formativa I, en particular, está orientada al desarrollo de la capacidad de los estudiantes ser observadores sistemáticos, rigurosos y responsables del ambiente social, emocional y de aprendizaje del aula, a través del modelo CLASS (Classroom Assesment Scoring System). Esto les permite a los estudiantes matizar su observación, su juicio y su concepto con los lentes de un profesional crítico, orientado por la búsqueda la excelencia de su profesión y de la construcción una cultura de la ética del cuidado en el aula."
+        "La práctica es un escenario de formación académica y de preparación para el mundo laboral en el cual los estudiantes desarrollan interacciones que enriquecen su dimensión personal, profesional y ética, mientras adquieren y utilizan conocimientos y habilidades necesarias para el ejercicio de la disciplina que estudian. En el caso de las licenciaturas, la práctica pedagógica es el eje fundamental que orienta la formación del futuro maestro, le posibilita la construcción y socialización del saber pedagógico, y le permiten la comprensión y apropiación de las dinámicas del aula y su contexto, reconociendo las diferentes dimensiones y modalidades de formación de niños, niñas, adolescentes, jóvenes y adultos. Es así, como las prácticas contribuyen a la formación de un maestro que, desde reflexión sistemática, crítica y ética de su acción pedagógica, emprende innovaciones que le ayudan a mejorar y garantizar los aprendizajes de sus estudiantes (MEN, 2014 y 2016), así como formar ciudadanos autónomos, pacíficos, incluyentes y participativos, orientados por un sentido de justicia y responsabilidad social. Entendemos la práctica como un espacio para aprender a enseñar y a investigar, la oportunidad de analizar modelos de enseñanza de otros colegas, conocer la cotidianidad de la escuela y un medio para afianzar el compromiso político y social con la educación.",
+        "La práctica formativa I, en particular, está orientada al desarrollo de la capacidad de los \nestudiantes en ser observadores sistemáticos, rigurosos y responsables del ambiente social, emocional y de aprendizaje del aula, a través de un modelo de vanguardia. Esto les permite a los estudiantes matizar su observación, su juicio y su concepto con los lentes de un profesional crítico, orientado por la búsqueda la excelencia de \nsu profesión y de la construcción de una cultura de la ética del cuidado en el aula."
       ],
-      "prerrequisitos": "TEORÍAS Y RETOS DEL APRENDIZAJE",
+      "prerrequisitos": "Educación: Teorías y retos del aprendizaje · Evaluación del aprendizaje",
       "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.",
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "29382",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p16"
+          ]
+        },
+        {
+          "nrc": "87152",
           "horario": [
             {
               "dia": "MARTES",
@@ -534,9 +627,7 @@ window.OFERTA = {
               "fin": "4:50 PM"
             }
           ],
-          "profesores": [
-            "p13"
-          ]
+          "profesores": []
         }
       ]
     },
@@ -551,15 +642,39 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-73.webp",
       "descripcion": [
-        "La práctica formativa II está orientada a analizar los retos de enseñanza y aprendizaje en el aula en función de la fundamentación pedagógica propuesta por la institución educativa. Para el logro de los objetivos propuestos los practicantes realizarán ejercicios de reflexión de la práctica pedagógica del Maestro Mentor y la propia.Los aprendizajes y las experiencias adquiridos en las prácticas formativas I también les permitirá a los practicantes hacer comparaciones sobre las dinámicas de aula en contextos educativos distintos. Los practicantes realizarán un ejercicio de indagación, sobre el componente pedagógico de la institución, sus herramientas de planeación de clases, las del maestro mentor y los productos de aprendizaje de los estudiantes. Todos los practicantes deben trabajar en la dimensión de retos del aprendizaje y enseñanza en el aula y realizar mínimo 4 intervenciones pedagógicas asignadas y acompañadas por el Maestro Mentor tanto en la planeación como en la implementación."
+        "La Práctica Formativa 2 es un espacio para aprender a enseñar mediante la observación, la indagación y la intervención pedagógica situada. Cada estudiante analizará cómo el Proyecto Educativo Institucional (PEI), su enfoque pedagógico y las dinámicas del colegio influyen en la planeación, la implementación y la evaluación de las clases. La práctica también permite reconocer la enseñanza como una labor ética, colaborativa y susceptible de mejoramiento continuo.",
+        "Los aprendizajes previos y las experiencias adquiridas en la Práctica Formativa 1 también permitirán que los practicantes realicen comparaciones sobre las dinámicas de aula en contextos educativos distintos."
       ],
-      "prerrequisitos": "PRÁCTICA FORMATIVA 1. CUMPLIR CON EL 50% DE LOS CURSOS DISCIPLINARES.",
-      "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.",
-      "obligatoriaEn": [],
+      "prerrequisitos": "Educación: Práctica formativa 1",
+      "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.\nEs necesario haber cursado el 50% de los cursos disciplinares.",
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "75099",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p12"
+          ]
+        },
+        {
+          "nrc": "87153",
           "horario": [
             {
               "dia": "MARTES",
@@ -567,10 +682,7 @@ window.OFERTA = {
               "fin": "4:50 PM"
             }
           ],
-          "profesores": [
-            "p9",
-            "p18"
-          ]
+          "profesores": []
         }
       ]
     },
@@ -585,15 +697,38 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-72.webp",
       "descripcion": [
-        "La práctica formativa III está orientada a que los estudiantes analicen la importancia de articular el direccionamiento estratégico y los procesos de enseñanza y aprendizaje de las instituciones educativas con los referentes (estándares, fines de la educación, objetivos) nacionales e internacionales utilizando información de fuentes primarias y secundarias.Para ello, durante este semestre centramos la reflexión en determinar los puntos de encuentro entre el direccionamiento estratégico y los procesos de enseñanza y aprendizaje de las instituciones de práctica con los fines de la educación, los objetivos por nivel, los lineamientos y estándares publicados por el MEN a nivel nacional; los objetivos educativos del milenio y los propósitos de formación para una ciudadanía global UNESCO a nivel internacional."
+        "La práctica es un escenario de formación académica y de preparación para el mundo laboral en el cual los estudiantes desarrollan interacciones que enriquecen su dimensión personal, mientras adquieren y utilizan conocimientos y habilidades necesarias para el ejercicio de la disciplina que estudian. En el caso de las licenciaturas, la práctica pedagógica es el eje fundamental que orienta la formación del futuro maestro, le posibilita la construcción del saber pedagógico y de compartir con sus saberes, dudas y dificultades; las prácticas se configuran como el espacio donde se logra la comprensión y apropiación de las dinámicas del aula y su contexto, el reconocimiento de las dimensiones y modalidades de formación de niños, niñas, adolescentes, jóvenes y adultos; las prácticas contribuyen a la formación de un maestro que desde la crítica y reflexión de su acción pedagógica emprende innovaciones que le ayudan mejorar y garantizar los aprendizajes de sus estudiantes (MEN, 2014 y 2016). Entendemos la práctica como un espacio para aprender a enseñar y a investigar, la oportunidad de analizar modelos de enseñanza de otros colegas, conocer la cotidianidad de la escuela y un medio para afianzar el compromiso político y social con la educación."
       ],
-      "prerrequisitos": "PRÁCTICA FORMATIVA 2.",
+      "prerrequisitos": "Educación: Práctica formativa 2",
       "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.",
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "32300",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p18"
+          ]
+        },
+        {
+          "nrc": "87154",
           "horario": [
             {
               "dia": "MARTES",
@@ -601,15 +736,13 @@ window.OFERTA = {
               "fin": "4:50 PM"
             }
           ],
-          "profesores": [
-            "p16"
-          ]
+          "profesores": []
         }
       ]
     },
     {
       "id": "c70",
-      "titulo": "RETOS. PEDAGO.DISCI. 1",
+      "titulo": "RETOS PEDAGÓGICOS DE LA DISCIPLINA 1",
       "categoria": "pregrado",
       "tipo": "LIC",
       "codigo": "EDUC-3103",
@@ -618,17 +751,34 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-70.webp",
       "descripcion": [
-        "Durante este curso estaremos reflexionando acerca de la importancia de desarrollar la comprensión en nuestras aulas, hacerlas visibles y así llevar a nuestros estudiantes a alcanzar verdaderas comprensiones que les permitan utilizar los conocimientos de manera creativa y flexible para enfrentar los desafíos del mundo de hoy. Esto lo haremos teniendo como centro la creación de un proyecto de diseño de una intervención en el aula a partir de un reto identificado , si es posible la implementaremos y reflexionaremos sobre los resultados."
+        "Crear una planificación curricular en el área de formación que contribuya al logro de las expectativas y a la superación de las limitaciones de aprendizaje de los estudiantes, utilizando la metodología de análisis didáctico implementado en el curso. Al ejercitarse en la realización del análisis didáctico de un tema de su área de formación, los estudiantes de licenciatura pondrán en juego los organizadores del currículo y desarrollarán conocimientos, habilidades y actitudes para:",
+        "Establecer expectativas de aprendizaje e identificar limitaciones de aprendizaje de sus estudiantes.",
+        "Prever las actuaciones de los escolares al abordar tareas de aprendizaje.",
+        "Diseñar, analizar y reformular tareas de aprendizaje que contribuyan al logro de las expectativas de aprendizaje y a la superación de las limitaciones de aprendizaje.",
+        "Diseñar y utilizar instrumentos y procedimientos de recolección, codificación y análisis de la información que permitan evaluar el aprendizaje y la enseñanza.",
+        "Implementar sistemáticamente diseños curriculares.",
+        "En resumen, los estudiantes tendrán la oportunidad de complementar y profundizar en el conocimiento didáctico necesario para la planificación, puesta en práctica y evaluación de unidades didácticas."
       ],
+      "prerrequisitos": "Educación General: Inglés 3 o English 06\nEducación: Evaluación del aprendizaje · Clima de aula y competencias socioemocionales · Diseño curricular",
       "correquisitos": "Práctica Profesional 1",
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "70494",
           "horario": [
             {
-              "dia": "MARTES",
+              "dia": "LUNES",
               "inicio": "2:00 PM",
               "fin": "4:50 PM"
             }
@@ -636,12 +786,23 @@ window.OFERTA = {
           "profesores": [
             "p7"
           ]
+        },
+        {
+          "nrc": "87155",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": []
         }
       ]
     },
     {
       "id": "c69",
-      "titulo": "RETOS. PEDAGO.DISCI. 2",
+      "titulo": "RETOS PEDAGÓGICOS DE LA DISCIPLINA 2",
       "categoria": "pregrado",
       "tipo": "LIC",
       "codigo": "EDUC-3104",
@@ -650,31 +811,44 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-69.webp",
       "descripcion": [
-        "Durante este curso estaremos reflexionando acerca de la importancia de desarrollar la comprensión en nuestras aulas, hacerlas visibles y así llevar a nuestros estudiantes a alcanzar verdaderas comprensiones que les permitan utilizar los conocimientos de manera creativa y flexible para enfrentar los desafíos del mundo de hoy. Esto lo haremos teniendo como centro el trabajo de grado donde a partir de un reto identificado, se diseñará una secuencia didáctica, la cual se implementará y evaluará."
+        "El curso “Retos pedagógicos de las disciplinas” tiene como propósito que los estudiantes construyan y afinen una comprensión propia acerca de cómo aprenden las personas y qué es el aprendizaje significativo dentro de un marco participativo, crítico y constructivista. En este curso los estudiantes podrán acercarse a la enseñanza a través del aprendizaje y lograrán comprender que la ciencia de la enseñanza no es lo inverso a la ciencia del aprendizaje, sino que no es posible entender la enseñanza sin entender el aprendizaje (Green, \n2014).",
+        "Los conocimientos adquiridos les permitirán diseñar un micro-currículo para su propia área de conocimiento en el que sea posible identificar, de manera precisa, unos objetivos de aprendizaje en términos de ideas centrales que deben ser comprendidas por sus potenciales estudiantes para desempeñarse efectivamente en la disciplina. Esto implica no sólo comprender su disciplina, sino aprender a identificar los posibles obstáculos, desafíos y dificultades que se les presentarán a quienes están aprendiendo la disciplina (el área). En particular, exige saber qué es lo que un estudiante debe comprender para estar en capacidad de resolver un reto, proponer o demostrar una respuesta adecuada, poner en práctica un conocimiento o emplear una habilidad, es decir qué es lo que el estudiante debe comprender para hacer un uso deliberado y consciente de los conceptos, de la menar en que estos se usan en la disciplina. Este fin de la enseñanza es el que exige entender (como profesores) cómo están entendiendo sus estudiantes y porqué tienen las dificultades particulares que presentan.",
+        "Así, los estudiantes del curso podrán proyectar como profesores una metodología que les permita a sus potenciales estudiantes apropiarse de esas ideas centrales para desempeñarse competentemente en diferentes contextos. Finalmente, estarán en capacidad de planear una evaluación que considere el error como oportunidad de aprendizaje y que valore las acciones de los estudiantes para que ellos mismos, y su DESCRIPCIÓN GENERAL profesor, reconozcan sus fortalezas, los aspectos a mejorar y las estrategias puntuales para superar las falencias identificadas.",
+        "Los estudiantes que toman este curso lograrán lo descrito arriba gracias a la práctica constante, la reflexión sobre sus propias actividades, el intercambio con sus pares y el uso de la escritura académica para comunicar sus ideas, sus hallazgos y para dar cuenta de su propio proceso de aprendizaje."
       ],
+      "prerrequisitos": "Educación General: Inglés 3 o English 06\nEducación: Retos pedagógicos de la disciplina 1",
       "correquisitos": "Práctica Profesional 2",
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "70495",
           "horario": [
             {
-              "dia": "MIÉRCOLES",
+              "dia": "LUNES",
               "inicio": "2:00 PM",
               "fin": "4:50 PM"
             }
           ],
           "profesores": [
-            "p6",
-            "p11"
+            "p6"
           ]
         }
       ]
     },
     {
       "id": "c68",
-      "titulo": "PRÁCTICA.PROFESIONAL 1",
+      "titulo": "PRÁCTICA PROFESIONAL 1",
       "categoria": "pregrado",
       "tipo": "LIC",
       "codigo": "EDUC-3105",
@@ -683,10 +857,22 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-68.webp",
       "descripcion": [
-        "La práctica profesional está orientada hacia el análisis e integración de la multiplicidad de dimensiones del mundo escolar y de la intervención pedagógica: los retos de aprendizaje y enseñanza en el aula, los espacios y recursos para el aprendizaje, escuela y familia, la escuela y su contexto, la cultura institucional, el clima escolar, la responsabilidad ética del docente y el sentido social de la educación. Además del trabajo de intervención pedagógica, durante la práctica profesional se desarrolla un ejercicio de investigación acción en el aula, que tiene como producto el trabajo de grado del programa de Licenciatura."
+        "La práctica es un escenario de formación académica y de preparación para el mundo laboral en el cual los estudiantes desarrollan interacciones que enriquecen su dimensión personal, profesional y ética, mientras adquieren y utilizan conocimientos y habilidades necesarios para el ejercicio de la disciplina que estudian. En el caso de las licenciaturas, la práctica pedagógica es el eje fundamental que orienta la formación del futuro maestro, le posibilita la construcción y socialización del saber pedagógico, y le permiten la comprensión y apropiación de las dinámicas del aula y su contexto, reconociendo las diferentes dimensiones y modalidades de formación de niños, niñas, adolescentes, jóvenes y adultos. Es así, como las prácticas contribuyen a la formación de un maestro que, desde reflexión sistemática, crítica y ética de su acción pedagógica, emprende innovaciones que le ayudan mejorar y garantizar los aprendizajes de sus estudiantes1, así como formar ciudadanos autónomos, pacíficos, incluyentes y participativos, orientados por un sentido de justicia y responsabilidad social. Entendemos la práctica como un espacio para aprender a enseñar y a investigar, la oportunidad de analizar modelos de enseñanza de otros colegas, conocer la cotidianidad de la escuela y un medio para afianzar el compromiso político y social con la educación.",
+        "La práctica profesional está orientada hacia el análisis e integración de la multiplicidad de dimensiones del mundo escolar y de la intervención pedagógica para desarrollar el juicio experto del docente: las dinámicas de aprendizaje y enseñanza relacionadas con la práctica intencionada en el aula, los espacios y recursos para el aprendizaje, la escuela y su contexto, la cultura institucional, el clima escolar, la responsabilidad ética del docente y el sentido social y político de la educación. Por consiguiente, desarrollar el juicio experto del docente implica tomar conciencia de cuáles son las acciones y “movidas” pedagógicas que mejor se ajustan a su disciplina (el área); anticipar los posibles errores en los conceptos y en los procedimientos; identificar y analizar las soluciones incorrectas, alternativas o creativas (en vez de descartarlas o sólo juzgarlas); conocer las ideas que no están considerando sus estudiantes, entender cómo están entendiendo ellos y anticipar posibles malentendidos y sus confusiones; generar un ambiente cálido en el que priman el apoyo y el cuidado para que los estudiantes puedan explorar, equivocarse y sentirse motivados; y asegurar los recursos, estrategias y planeación que aseguren que se maximiza el tiempo para el aprendizaje."
       ],
-      "prerrequisitos": "PRÁCTICA FORMATIVA 3, CLIMA DE AULA, EVALUACIÓN DEL APRENDIZAJE Y DISEÑO CURRICULAR. CUMPLIR CON EL 80% DE LOS CURSOS DISCIPLINARES. INGLÉS 06 APROBADO.",
-      "obligatoriaEn": [],
+      "prerrequisitos": "Educación General: English 06\nEducación: Lab. la educación en Colombia · Lab el sentido de la educación · Práctica formativa 3 · El sentido de la educación · La educación en Colombia",
+      "observaciones": "Es necesario haber cursado el 80% de los cursos disciplinares.",
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -701,12 +887,25 @@ window.OFERTA = {
           "profesores": [
             "p15"
           ]
+        },
+        {
+          "nrc": "87156",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p10"
+          ]
         }
       ]
     },
     {
       "id": "c67",
-      "titulo": "PRÁCTICA.PROFESIONAL 2",
+      "titulo": "PRÁCTICA PROFESIONAL 2",
       "categoria": "pregrado",
       "tipo": "LIC",
       "codigo": "EDUC-3106",
@@ -715,17 +914,29 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-67.webp",
       "descripcion": [
-        "La práctica profesional está orientada hacia el análisis e integración de la multiplicidad de dimensiones del mundo escolar y de la intervención pedagógica: los retos de aprendizaje y enseñanza en el aula, los espacios y recursos para el aprendizaje, escuela y familia, la escuela y su contexto, la cultura institucional, el clima escolar, la responsabilidad ética del docente y el sentido social de la educación. Además del trabajo de intervención pedagógica, durante la práctica profesional se desarrolla un ejercicio de investigación acción en el aula, que tiene como producto el trabajo de grado del programa de Licenciatura."
+        "La práctica es un escenario de formación académica y de preparación para el mundo laboral en el cual los estudiantes participan en interacciones que enriquecen su dimensión personal, profesional y ética, para profundizar y ampliar los conocimientos, habilidades y actitudes necesarios para el ejercicio de la docencia. En el caso de las licenciaturas, la práctica pedagógica es el eje fundamental que orienta la formación del maestro, le posibilita la construcción y socialización del saber pedagógico, y le permite la comprensión y apropiación de las dinámicas del aula y su contexto, reconociendo las diferentes dimensiones y modalidades de formación de sus estudiantes. Así, las prácticas contribuyen a la formación de un maestro que, desde la reflexión sistemática, crítica y ética de su acción pedagógica, emprende innovaciones que le ayudan mejorar y garantizar los aprendizajes de sus estudiantes, así como formar ciudadanos autónomos, pacíficos, incluyentes y participativos, orientados por un sentido de justicia y responsabilidad social. Entendemos la práctica como un espacio para aprender a enseñar y a investigar, y como la oportunidad de analizar modelos de enseñanza de otros colegas, conocer la cotidianidad de la escuela y un medio para afianzar el compromiso político y social con la educación. \nLa práctica profesional está orientada hacia el análisis e integración de la multiplicidad de dimensiones del mundo escolar y de la intervención pedagógica para desarrollar el juicio experto del docente: las dinámicas de aprendizaje y enseñanza relacionadas con la práctica intencionada en el aula, los espacios y recursos para el aprendizaje, la escuela y su contexto, la cultura institucional, el clima escolar, la responsabilidad ética del docente y el sentido social y político de la educación. Por consiguiente, desarrollar el juicio experto del docente implica tomar conciencia de cuáles son las acciones y “movidas” pedagógicas que mejor se ajustan a su disciplina (el área); anticipar los posibles errores en los conceptos y en los procedimientos; identificar y analizar las soluciones incorrectas, alternativas o creativas (en vez de descartarlas o sólo juzgarlas); conocer las ideas que no están considerando sus estudiantes, entender cómo están entendiendo ellos y anticipar posibles malentendidos y sus confusiones; generar un ambiente cálido en el que priman el apoyo y el cuidado para que los estudiantes puedan explorar, equivocarse y sentirse motivados; y asegurar los recursos, estrategias y planeación que aseguren que se maximiza el tiempo para el aprendizaje.",
+        "Desarrollar las competencias necesarias para ejercer de manera autónoma una docencia intencionada en la que los conocimientos, la observación, la planeación y la reflexión les permita asumir los retos profesionales en los contextos educativos."
       ],
-      "prerrequisitos": "PRÁCTICA.PROFESIONAL 1. CUMPLIR CON EL 100% DE LOS CURSOS DISCIPLINARES.",
-      "obligatoriaEn": [],
+      "prerrequisitos": "Educación General: Inglés 3 o English 06\nEducación: Práctica profesional 1",
+      "observaciones": "Es necesario haber cursado el 100% de los cursos disciplinares.",
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "70497",
           "horario": [
             {
-              "dia": "LUNES",
+              "dia": "MIÉRCOLES",
               "inicio": "2:00 PM",
               "fin": "4:50 PM"
             }
@@ -738,6 +949,7 @@ window.OFERTA = {
     },
     {
       "id": "c66",
+      "oculto": true,
       "titulo": "EL SENTIDO DE LA EDUCACIÓN",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -749,7 +961,17 @@ window.OFERTA = {
       "descripcion": [
         "El curso El Sentido de la Educación permite a los estudiantes analizar críticamente y asumir una postura sobre el sentido ético y político de la educación en conexión con su profesión docente. Este curso aporta al propósito de formación socio humanística y científica de la Universidad de los Andes desde un enfoque crítico e integrador. Bajo este marco, el diseño pedagógico y didáctico del curso está orientado a que los y las estudiantes se sensibilicen y amplíen su comprensión sobre la educación, especialmente sobre las problemáticas, las tensiones y los retos que trae consigo para el país y su crecimiento profesional. Concretamente, el laboratorio de este curso tiene como propósito desarrollar una aproximación sistemática a los principios, trabajos y diversas experiencias que permiten pensar el sentido de la educación que se está produciendo en el país, mediante la observación, registro, codificación y análisis de ambientes de aprendizaje, prácticas pedagógicas y procesos del desarrollo humano que se llevan a cabo en diversas regiones e instituciones educativas."
       ],
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -769,6 +991,7 @@ window.OFERTA = {
     },
     {
       "id": "c65",
+      "oculto": true,
       "titulo": "LA EDUCACIÓN EN COLOMBIA",
       "categoria": "pregrado",
       "tipo": "LIC",
@@ -780,7 +1003,17 @@ window.OFERTA = {
       "descripcion": [
         "Que la educación sea un componente clave para el desarrollo de los individuos y las naciones es el resultado de un proceso histórico de luchas por adquirir un derecho que no siempre se consideró como tal. En este curso analizamos, desde la perspectiva del derecho a la educación, cómo se ha configurado, pero también abrimos una discusión sobre algunas de las principales controversias que son la base para estructurar la política pública contemporánea. Por medio de debates grupales y un proyecto de indagación individual, los estudiantes en este curso podrán introducirse al campo de la educación en Colombia y desarrollar una lectura crítica, reflexiva y ligada a su propia trayectoria educativa."
       ],
-      "obligatoriaEn": [],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
       "electivaEn": [],
       "secciones": [
         {
@@ -800,7 +1033,6 @@ window.OFERTA = {
     },
     {
       "id": "c64",
-      "oculto": true,
       "titulo": "CURRICULO Y PEDAGOGIA",
       "categoria": "posgrado",
       "tipo": "MS",
@@ -810,7 +1042,9 @@ window.OFERTA = {
       "modalidad": "VIRTUAL",
       "imagen": "media/course-64.webp",
       "descripcion": [
-        "En muchas ocasiones, el concepto de currículo se asocia al diseño de estándares educativos y a planes de estudios que se imponen desde la política pública. Esto ha generado unas tensiones permanentes entre los profesores y esa noción tradicional del currículo. En este curso se analizan de manera crítica y propositiva diferentes perspectivas curriculares y la manera cómo éstas permiten redefinir el concepto de currículo, para invitar a los participantes a repensar tanto los fines de la educación como las prácticas pedagógicas. A partir de esto, el curso busca que los participantes reflexionen acerca de y reconstruyan sus propios conceptos y perspectivas sobre el currículo y la pedagogía; generen un compromiso con su rol personal como agente constructor de currículo; evalúen currículos de manera crítica y sustentada; y propongan acciones de transformación de sus propios currículos."
+        "La educación es un derecho humano fundamental que debe garantizarse en todas las circunstancias, sobre todo, en situaciones de crisis y emergencias. Sin embargo, los conflictos armados, los desastres socio naturales, la crisis climática y los desplazamientos forzados interrumpen cada año la escolaridad de millones de niños, niñas y jóvenes en el mundo. Muchas de estas emergencias se prolongan durante años. En estos contextos, la escuela puede ser un espacio de protección y cuidado, pero también puede reproducir exclusiones y riesgos.",
+        "Desde una perspectiva comparada y sistémica, este curso ofrece una mirada introductoria al campo de la educación en emergencias. Pone en diálogo textos, marcos normativos y debates clave con experiencias del contexto colombiano y latinoamericano, en particular las de los territorios rurales y étnicos. Guiaremos nuestras reflexiones a partir de las preguntas: ¿Cómo pueden los sistemas educativos prepararse, responder y recuperarse sin perder de vista la calidad, la pertinencia y la protección? Y, ¿cuáles son los alcances y los límites de la respuesta humanitaria frente a las agendas de desarrollo, paz y justicia social?",
+        "Para esto, tomaremos una definición amplia del sistema educativo. Esta definición vincula lo que ocurre en el aula y en la comunidad escolar con las decisiones de las autoridades educativas, la cooperación internacional, el sistema humanitario, la sociedad civil y las autoridades étnicas y comunitarias, y ha distanciado a los actores educativos de su papel fundamental como agentes constructores del currículo. En este curso se analizan de manera crítica y propositiva diferentes perspectivas curriculares y la manera como éstas permiten redefinir el concepto de currículo. Se entretejen aportes desde el pensamiento pedagógico para reflexionar sobre la relación entre lo curricular y lo pedagógico, y expandir la aproximación al análisis de la práctica educativa. A partir de esto, el curso busca que los participantes: reflexionen acerca de y reconstruyan sus propios conceptos y perspectivas sobre el currículo y la pedagogía; generen un compromiso con su rol personal como pedagogos y agentes constructores de currículo; evalúen currículos y prácticas pedagógicas de manera crítica y sustentada; y propongan acciones de transformación de sus propios contextos educativos."
       ],
       "obligatoriaEn": [
         "Todos los posgrados"
@@ -818,12 +1052,38 @@ window.OFERTA = {
       "electivaEn": [],
       "secciones": [
         {
-          "nrc": "79675",
+          "nrc": "85565",
           "horario": [
             {
-              "dia": "SÁBADO",
-              "inicio": "10:00 AM",
-              "fin": "12:50 PM"
+              "dia": "LUNES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": [
+            "pmwut82suzys"
+          ]
+        },
+        {
+          "nrc": "87157",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": [
+            "p17"
+          ]
+        },
+        {
+          "nrc": "87158",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
             }
           ],
           "profesores": []
@@ -832,6 +1092,7 @@ window.OFERTA = {
     },
     {
       "id": "c63",
+      "oculto": true,
       "titulo": "MÉTODOS CUALITATIVOS DE INVESTIGACIÓN",
       "categoria": "posgrado",
       "tipo": "MS",
@@ -869,6 +1130,7 @@ window.OFERTA = {
     },
     {
       "id": "c62",
+      "oculto": true,
       "titulo": "INVESTIGACIÓN EN EDUCACIÓN POSGRADOS",
       "categoria": "posgrado",
       "tipo": "MS",
@@ -906,6 +1168,7 @@ window.OFERTA = {
     },
     {
       "id": "c61",
+      "oculto": true,
       "titulo": "GESTIÓN Y LIDERAZGO DEL CAMBIO EDUCATIVO",
       "categoria": "posgrado",
       "tipo": "MS",
@@ -949,6 +1212,7 @@ window.OFERTA = {
     },
     {
       "id": "c60",
+      "oculto": true,
       "titulo": "EDUCACIÓN, CONFLICTO Y PAZ",
       "categoria": "posgrado",
       "tipo": "MS",
@@ -984,6 +1248,7 @@ window.OFERTA = {
     },
     {
       "id": "c59",
+      "oculto": true,
       "titulo": "PENSAMIENTO CRÍTICO EN EDUCACIÓN",
       "categoria": "posgrado",
       "tipo": "MS",
@@ -1019,6 +1284,7 @@ window.OFERTA = {
     },
     {
       "id": "c58",
+      "oculto": true,
       "titulo": "CALIDAD DE LAS INTERACCIONES EN LA PRIMERA INFANCIA",
       "categoria": "posgrado",
       "tipo": "MS",
@@ -1062,14 +1328,16 @@ window.OFERTA = {
       "modalidad": "VIRTUAL",
       "imagen": "media/course-57.webp",
       "descripcion": [],
-      "prerrequisitos": "TESIS 1",
+      "prerrequisitos": "Educación: Tesis 1",
       "obligatoriaEn": [],
       "electivaEn": [],
       "secciones": [
         {
           "nrc": "82476",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p16"
+          ]
         }
       ]
     },
@@ -1079,44 +1347,23 @@ window.OFERTA = {
       "categoria": "posgrado",
       "tipo": "MS",
       "track": "investigacion",
-      "codigo": "EDUC-4208",
+      "codigo": "EDUC-4210",
       "creditos": 2,
       "semanas": 16,
       "modalidad": "VIRTUAL",
       "imagen": "media/course-56.webp",
       "descripcion": [],
-      "prerrequisitos": "CURRICULO Y PEDAGOGÍA",
+      "prerrequisitos": "Educación: Investigación en educación posgrados",
       "obligatoriaEn": [
         "Maestría en Educación – Investigación (semipresencial)"
       ],
       "electivaEn": [],
       "secciones": [
         {
-          "nrc": "81034",
+          "nrc": "81032",
           "horario": [],
           "profesores": [
-            "p10"
-          ]
-        },
-        {
-          "nrc": "78405",
-          "horario": [],
-          "profesores": [
-            "p6"
-          ]
-        },
-        {
-          "nrc": "78415",
-          "horario": [],
-          "profesores": [
-            "p11"
-          ]
-        },
-        {
-          "nrc": "81034",
-          "horario": [],
-          "profesores": [
-            "p10"
+            "p15"
           ]
         },
         {
@@ -1136,18 +1383,9 @@ window.OFERTA = {
         {
           "nrc": "83906",
           "horario": [],
-          "profesores": []
-        },
-        {
-          "nrc": "83907",
-          "horario": [],
-          "profesores": []
-        },
-        {
-          "nrc": "83908",
-          "horario": [],
           "profesores": [
-            "p15"
+            "p9",
+            "p13"
           ]
         }
       ]
@@ -1164,73 +1402,17 @@ window.OFERTA = {
       "modalidad": "VIRTUAL",
       "imagen": "media/course-55.webp",
       "descripcion": [],
-      "prerrequisitos": "TRABAJO DE GRADO I",
+      "prerrequisitos": "Educación: Trabajo de grado I",
       "obligatoriaEn": [
         "Maestría en Educación – Investigación (semipresencial)"
       ],
       "electivaEn": [],
       "secciones": [
         {
-          "nrc": "48786",
-          "horario": [],
-          "profesores": [
-            "p18"
-          ]
-        },
-        {
-          "nrc": "63310",
-          "horario": [],
-          "profesores": [
-            "p6"
-          ]
-        },
-        {
-          "nrc": "75150",
-          "horario": [],
-          "profesores": [
-            "p17"
-          ]
-        },
-        {
           "nrc": "78397",
           "horario": [],
           "profesores": [
-            "p15"
-          ]
-        },
-        {
-          "nrc": "78399",
-          "horario": [],
-          "profesores": [
-            "p10"
-          ]
-        },
-        {
-          "nrc": "78400",
-          "horario": [],
-          "profesores": [
-            "p4"
-          ]
-        },
-        {
-          "nrc": "78416",
-          "horario": [],
-          "profesores": [
-            "p7"
-          ]
-        },
-        {
-          "nrc": "81038",
-          "horario": [],
-          "profesores": [
-            "p16"
-          ]
-        },
-        {
-          "nrc": "81040",
-          "horario": [],
-          "profesores": [
-            "p3"
+            "pmwut82sxdtl"
           ]
         },
         {
@@ -1241,10 +1423,24 @@ window.OFERTA = {
           ]
         },
         {
-          "nrc": "81042",
+          "nrc": "78399",
           "horario": [],
           "profesores": [
-            "p12"
+            "p10"
+          ]
+        },
+        {
+          "nrc": "63310",
+          "horario": [],
+          "profesores": [
+            "p6"
+          ]
+        },
+        {
+          "nrc": "81038",
+          "horario": [],
+          "profesores": [
+            "p16"
           ]
         }
       ]
@@ -1260,8 +1456,10 @@ window.OFERTA = {
       "semanas": 16,
       "modalidad": "VIRTUAL",
       "imagen": "media/course-36.webp",
-      "descripcion": [],
-      "prerrequisitos": "CURRÍCULO Y PEDAGOGÍA",
+      "descripcion": [
+        "Este curso tiene como propósito enfrentar a las y los estudiantes a una experiencia de diseño de una innovación educativa orientada al mejoramiento de su propia práctica, de la práctica de otros educadores o de prácticas institucionales. Para lograrlo, se apropian de un marco de innovación educativa que les permite intervenir críticamente en contextos de educación formal, no formal o informal, promoviendo ambientes de aprendizaje efectivos, participativos, reflexivos y críticos. Este propósito se sustenta en la comprensión de la innovación educativa como un proceso deliberado y planificado de solución de problemas, que busca mejorar la calidad del aprendizaje mediante la superación de enfoques tradicionales de enseñanza (UNESCO, 2016). Como eje metodológico se incorpora el Pensamiento de Diseño (Design Thinking), una estrategia centrada en las personas, que promueve la creatividad, la empatía y la colaboración como vías para resolver problemas complejos (Peralta, 2020; Videla et al., 2024). Esta metodología permite a los futuros innovadores/as educativos/as comprender profundamente las necesidades reales de quienes participan en los procesos de enseñanza-aprendizaje —estudiantes, docentes o equipos de apoyo— y diseñar soluciones pertinentes a partir de un enfoque humanizado e inclusivo."
+      ],
+      "prerrequisitos": "Educación: Currículo y pedagogía",
       "obligatoriaEn": [
         "Maestría en Educación – Profundización (semipresencial)",
         "Maestría en Educación – Profundización (virtual)"
@@ -1270,16 +1468,53 @@ window.OFERTA = {
       "secciones": [
         {
           "nrc": "78608",
-          "horario": [
-            {
-              "dia": "LUNES",
-              "inicio": "5:00 PM",
-              "fin": "7:50 PM"
-            }
-          ],
-          "profesores": [
-            "p10"
-          ]
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87337",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87329",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87330",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87331",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87332",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87333",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87334",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87335",
+          "horario": [],
+          "profesores": []
+        },
+        {
+          "nrc": "87336",
+          "horario": [],
+          "profesores": []
         }
       ]
     },
@@ -1294,8 +1529,10 @@ window.OFERTA = {
       "semanas": 16,
       "modalidad": "VIRTUAL",
       "imagen": "media/course-35.webp",
-      "descripcion": [],
-      "prerrequisitos": "PROYECTO INNOVACIÓN EDUCATIVA I",
+      "descripcion": [
+        "Este curso tiene como propósito enfrentar a las y los estudiantes a una experiencia de \ndiseño de una innovación educativa orientada al mejoramiento de su propia práctica, \nde la práctica de otros educadores o de prácticas institucionales. Para lograrlo, se \napropian de un marco de innovación educativa que les permite intervenir críticamente \nen contextos de educación formal, no formal o informal, promoviendo ambientes de \naprendizaje efectivos, participativos, reflexivos y críticos. Este propósito se sustenta en \nla comprensión de la innovación educativa como un proceso deliberado y planificado \nde solución de problemas, que busca mejorar la calidad del aprendizaje mediante la \nsuperación de enfoques tradicionales de enseñanza (UNESCO, 2016). Como eje \nmetodológico se incorpora el Pensamiento de Diseño (Design Thinking), una estrategia \ncentrada en las personas, que promueve la creatividad, la empatía y la colaboración \ncomo vías para resolver problemas complejos (Peralta, 2020; Videla et al., 2024). Esta \nmetodología permite a los futuros innovadores/as educativos/as comprender \nprofundamente las necesidades reales de quienes participan en los procesos de \nenseñanza-aprendizaje —estudiantes, docentes o equipos de apoyo— y diseñar \nsoluciones pertinentes a partir de un enfoque humanizado e inclusivo."
+      ],
+      "prerrequisitos": "Educación: Proyecto innovación educativa I",
       "obligatoriaEn": [
         "Maestría en Educación – Profundización (semipresencial)",
         "Maestría en Educación – Profundización (virtual)"
@@ -1319,6 +1556,7 @@ window.OFERTA = {
     },
     {
       "id": "c34",
+      "oculto": true,
       "titulo": "INTERACCIONES EN EL AULA: OBSERVAR PARA TRANSFORMAR",
       "categoria": "posgrado",
       "tipo": "ESP",
@@ -1371,7 +1609,9 @@ window.OFERTA = {
         {
           "nrc": "82477",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p18"
+          ]
         }
       ]
     },
@@ -1392,24 +1632,25 @@ window.OFERTA = {
       "electivaEn": [],
       "secciones": [
         {
-          "nrc": "81206",
-          "horario": [],
-          "profesores": []
-        },
-        {
           "nrc": "81211",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p7"
+          ]
+        },
+        {
+          "nrc": "81206",
+          "horario": [],
+          "profesores": [
+            "p8"
+          ]
         },
         {
           "nrc": "83909",
           "horario": [],
-          "profesores": []
-        },
-        {
-          "nrc": "83910",
-          "horario": [],
-          "profesores": []
+          "profesores": [
+            "p18"
+          ]
         }
       ]
     },
@@ -1424,6 +1665,7 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-28.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación General: Inglés doctorados 2\nEducación: Elaboración de propuesta I",
       "observaciones": "2",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1433,25 +1675,31 @@ window.OFERTA = {
         {
           "nrc": "78427",
           "horario": [],
+          "profesores": [
+            "p15"
+          ]
+        },
+        {
+          "nrc": "83911",
+          "horario": [],
+          "profesores": [
+            "p9"
+          ]
+        },
+        {
+          "nrc": "87519",
+          "horario": [],
           "profesores": []
         },
         {
           "nrc": "78430",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p18"
+          ]
         },
         {
-          "nrc": "83911",
-          "horario": [],
-          "profesores": []
-        },
-        {
-          "nrc": "83912",
-          "horario": [],
-          "profesores": []
-        },
-        {
-          "nrc": "83913",
+          "nrc": "87520",
           "horario": [],
           "profesores": []
         }
@@ -1459,6 +1707,7 @@ window.OFERTA = {
     },
     {
       "id": "c23",
+      "oculto": true,
       "titulo": "INVESTIGACION DOCTORAL EN CURSO",
       "categoria": "posgrado",
       "tipo": "DOC",
@@ -1491,7 +1740,11 @@ window.OFERTA = {
       "semanas": 16,
       "modalidad": "HÍBRIDA",
       "imagen": "media/course-22.webp",
-      "descripcion": [],
+      "descripcion": [
+        "El Coloquio de Investigación Doctoral de la Facultad de Educación de la Universidad de los Andes es un espacio concebido para el diálogo académico riguroso, el cuestionamiento crítico y la construcción colectiva de conocimiento. Este escenario reúne de manera secuencial a los doctorandos que se encuentran cursando desde el primero hasta el tercer ciclo del programa, con el propósito de acoger y consolidar una comunidad académica que reflexiona y actúa en torno a diferentes fenómenos y problemas del campo de la educación.",
+        "Por esta razón, el Coloquio es un espacio genuinamente interdisciplinar que se sitúa dentro de las diversas líneas de especialidad de la Facultad, tales como: currículo y pedagogía, filosofía de la educación, formación docente, prácticas de aula, calidad educativa, políticas educativas, ética de la educación, educación ciudadanía y socioemocional, educación matemática, educación para el bilingüismo, inclusión y diversidad, entre otras. La investigación doctoral en educación no solo se orienta a la producción de saber especializado, sino también a la consolidación de redes de colaboración intelectual comprometidas con la justicia, la inclusión, el rigor y la diversidad epistemológica.",
+        "Dada la naturaleza diversa de los temas y de los participantes, este programa sirve de orientación general y es co-construido de manera participativa con el grupo de estudiantes doctorales. De esta manera, el cronograma y los énfasis temáticos se adaptan cada semestre para responder de forma directa a las necesidades específicas de aprendizaje, avances y hitos académicos de los doctorandos matriculados."
+      ],
       "observaciones": "5",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1508,7 +1761,7 @@ window.OFERTA = {
             }
           ],
           "profesores": [
-            "p15"
+            "p9"
           ]
         }
       ]
@@ -1524,6 +1777,7 @@ window.OFERTA = {
       "modalidad": "HÍBRIDA",
       "imagen": "media/course-21.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación: Coloquio de investigación I",
       "observaciones": "3",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1540,7 +1794,7 @@ window.OFERTA = {
             }
           ],
           "profesores": [
-            "p15"
+            "p9"
           ]
         }
       ]
@@ -1556,6 +1810,7 @@ window.OFERTA = {
       "modalidad": "HÍBRIDA",
       "imagen": "media/course-20.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación: Coloquio de investigación II",
       "observaciones": "5",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1572,7 +1827,7 @@ window.OFERTA = {
             }
           ],
           "profesores": [
-            "p15"
+            "p9"
           ]
         }
       ]
@@ -1588,6 +1843,7 @@ window.OFERTA = {
       "modalidad": "HÍBRIDA",
       "imagen": "media/course-19.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación: Coloquio de investigación III",
       "observaciones": "3",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1604,7 +1860,7 @@ window.OFERTA = {
             }
           ],
           "profesores": [
-            "p15"
+            "p9"
           ]
         }
       ]
@@ -1620,6 +1876,7 @@ window.OFERTA = {
       "modalidad": "HÍBRIDA",
       "imagen": "media/course-18.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación: Coloquio de investigación IV",
       "observaciones": "3",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1636,7 +1893,7 @@ window.OFERTA = {
             }
           ],
           "profesores": [
-            "p15"
+            "p9"
           ]
         }
       ]
@@ -1652,6 +1909,7 @@ window.OFERTA = {
       "modalidad": "HÍBRIDA",
       "imagen": "media/course-17.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación: Coloquio de investigación V",
       "observaciones": "5",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1668,7 +1926,7 @@ window.OFERTA = {
             }
           ],
           "profesores": [
-            "p15"
+            "p9"
           ]
         }
       ]
@@ -1684,7 +1942,7 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-16.webp",
       "descripcion": [],
-      "prerrequisitos": "HABER APROBADO TODOS LOS CURSOS DE LOS CICLOS 1 Y 2. INGLÉS PARA DOCTORADO 2 APROBADO.",
+      "prerrequisitos": "Una de estas opciones: Inglés doctorados 2 · Elaboración de propuesta II · Examen comprensivo · Prueba capacidad investigativa; o Avanzado investigación cualita; o Avanzado investigación cuantit",
       "obligatoriaEn": [
         "Doctorado en Educación"
       ],
@@ -1693,20 +1951,24 @@ window.OFERTA = {
         {
           "nrc": "81214",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p10"
+          ]
         },
         {
           "nrc": "81216",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p5"
+          ]
         },
         {
-          "nrc": "83915",
+          "nrc": "87522",
           "horario": [],
           "profesores": []
         },
         {
-          "nrc": "83916",
+          "nrc": "87524",
           "horario": [],
           "profesores": []
         }
@@ -1723,6 +1985,7 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-12.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación: Investigación doctoral I · Prueba capacidad investigativa",
       "observaciones": "2",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1730,29 +1993,31 @@ window.OFERTA = {
       "electivaEn": [],
       "secciones": [
         {
-          "nrc": "78420",
-          "horario": [],
-          "profesores": []
-        },
-        {
           "nrc": "81220",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p10"
+          ]
         },
         {
           "nrc": "81221",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "pmwut82suzys"
+          ]
         },
         {
-          "nrc": "81224",
+          "nrc": "78420",
           "horario": [],
-          "profesores": []
+          "profesores": [
+            "p17"
+          ]
         }
       ]
     },
     {
       "id": "c8",
+      "oculto": true,
       "titulo": "PASANTÍA DOCTORAL",
       "categoria": "posgrado",
       "tipo": "DOC",
@@ -1786,7 +2051,7 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-7.webp",
       "descripcion": [],
-      "prerrequisitos": "PREPARACIÓN DEL EXAMEN COMPRENSIVO",
+      "prerrequisitos": "Educación: Preparación examen comprensivo",
       "observaciones": "5",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1808,11 +2073,11 @@ window.OFERTA = {
       "categoria": "posgrado",
       "tipo": "DOC",
       "codigo": "EDUC-6971",
-      "creditos": 0,
       "semanas": 16,
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-6.webp",
       "descripcion": [],
+      "prerrequisitos": "Educación: Curso avan. invest. doctoral · Elaboración de propuesta II · Examen comprensivo · EDUC 6992",
       "correquisitos": "Elaboración de Propuesta 2 o Inscribir Por A Parte",
       "observaciones": "6",
       "obligatoriaEn": [
@@ -1840,7 +2105,7 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-5.webp",
       "descripcion": [],
-      "prerrequisitos": "APROBADO INGLÉS PARA DOCTORADO 1.",
+      "prerrequisitos": "Educación General: Inglés doctorados 1",
       "observaciones": "15",
       "obligatoriaEn": [
         "Doctorado en Educación"
@@ -1862,24 +2127,28 @@ window.OFERTA = {
       "categoria": "posgrado",
       "tipo": "DOC",
       "codigo": "EDUC-6990",
-      "creditos": 0,
       "semanas": 16,
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-4.webp",
       "descripcion": [],
-      "prerrequisitos": "IMPORTANTE APROBAR ESTE NIVEL DE INGLÉS PARA GRADUARSE.",
+      "prerrequisitos": "Educación General: Inglés doctorados 3\nEducación: Pasantía doctoral · Investigación doctoral II",
       "correquisitos": "Inglés para Doctorado 3",
       "observaciones": "2",
       "obligatoriaEn": [],
       "electivaEn": [],
       "secciones": [
         {
+          "nrc": "81044",
+          "horario": [],
+          "profesores": []
+        },
+        {
           "nrc": "70244",
           "horario": [],
           "profesores": []
         },
         {
-          "nrc": "81044",
+          "nrc": "83914",
           "horario": [],
           "profesores": []
         },
@@ -1887,10 +2156,587 @@ window.OFERTA = {
           "nrc": "81226",
           "horario": [],
           "profesores": []
+        }
+      ]
+    },
+    {
+      "id": "cmwut82stxdj",
+      "titulo": "PROYECTOS DE INVESTIGACION CONECTA-TE",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-2003",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-2003.webp",
+      "descripcion": [],
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "86595",
+          "horario": [],
+          "profesores": []
+        }
+      ]
+    },
+    {
+      "id": "cmwut82sue8r",
+      "titulo": "ESTADÍSTICA PARA EDUCADORES",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-2010",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-2010.webp",
+      "descripcion": [
+        "El curso busca que, al finalizar, les estudiantes hayan desarrollado las capacidades necesarias para:",
+        "Comprender reportes de investigación cuantitativa en educación",
+        "Leer críticamente reportes de investigación cuantitativa en educación",
+        "Diseñar estudios cuantitativos de alcance pequeño en educación, especialmente investigación en el aula. \nRecoger y analizar datos cuantitativos en estudios educativos.",
+        "Reportar estudios cuantitativos de alcance pequeño en educación"
+      ],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "86596",
+          "horario": [
+            {
+              "dia": "MARTES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p9"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82suk90",
+      "titulo": "DESARROLLO HUMANO Y EDUCACIÓN",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-2012",
+      "creditos": 4,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-2012.webp",
+      "descripcion": [
+        "Las últimas dos décadas de investigación en varias disciplinas han cambiado nuestra \ncomprensión del desarrollo humano. Hoy las evidencias indican que los diferentes dominios del \ndesarrollo (social, emocional, cognitivo) están entrelazados: la expresión de nuestra estructura \ngenética y una parte significativa del desarrollo de nuestro cerebro dependen de nuestras \nexperiencias en el mundo y de las relaciones que establecemos a lo largo de la vida. También \nsabemos que el aprendizaje puede promoverse efectivamente en ambientes enriquecidos y \nestimulantes en los que priman las relaciones de cuidado con apoyo emocional y social. Uno de \nlos retos que hoy tenemos es incorporar ese conocimiento a las prácticas, programas y políticas \neducativas para asegurar que todos los niños y jóvenes puedan desarrollar plenamente su \npotencial. Tanto los psicólogos como los profesores son fundamentales en la creación de \nambientes educativos en los que se use e incorpore lo que indica la evidencia para asegurar el \ndesarrollo de todos los niños y jóvenes. Por esta razón, en este curso los estudiantes de educación \nconocerán y comprenderán los principales resultados de la investigación en desarrollo humano \npara que puedan incorporarlos a su práctica docente y construir ambientes de aprendizaje \nefectivos. De la misma manera, los estudiantes de otras disciplinas podrán aproximarse a los \nretos pedagógicos que les plantea el desarrollo y aportar a la calidad de los procesos de enseñanza \ny aprendizaje. Antes que aprender una secuencia de logros en el desarrollo, el curso está diseñado \npara pensar el desarrollo y su relación con el aprendizaje y la práctica docente. Este es un curso \ninterdisciplinario, en el que la convergencia de dos de las disciplinas centrales a las ciencias del \ndesarrollo humano aporta a la formación de los estudiantes"
+      ],
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "86597",
+          "horario": [
+            {
+              "dia": "MARTES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": [
+            "p11",
+            "p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82sueva",
+      "titulo": "RAZONAMIENTO LÓGICO MATEMÁTICO EN EDUCACIÓN INICIAL",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-2021",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-2021.webp",
+      "descripcion": [
+        "El curso Razonamiento lógico matemático en educación infantil busca contribuir al conocimiento matemático y didáctico de los profesores a cargo del aprendizaje de las matemáticas en ese nivel educativo."
+      ],
+      "obligatoriaEn": [
+        "Licenciatura en Educación Infantil"
+      ],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "85751",
+          "horario": [
+            {
+              "dia": "JUEVES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82su9fw",
+      "titulo": "DISEÑO CURRICULAR",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-2102",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-2102.webp",
+      "descripcion": [
+        "Al finalizar el curso los estudiantes estarán en capacidad de pensar críticamente el marco del diseño de un currículo, y participar de ejercicios de diseño curricular en los que tengan que poner en práctica propuestas educativas que partan del reconocimiento del contexto institucional, los ritmos de aprendizajes y la diversidad de sus estudiantes. También se espera que hayan construido un concepto del currículo y hayan comprendido que éste debe ser el producto de decisiones que toma el maestro desde una lectura comprensiva de las dimensiones políticas y éticas de la educación.",
+        "En consecuencia, el curso se configura como un espacio en el cual los estudiantes adelantan un ejercicio de diseño curricular con el que materializan herramientas conceptuales y metodológicas que han apropiado, conscientes de que parte del reto de transformar las prácticas pedagógicas está en la planeación e implementación de currículos retadores, pertinentes y articulados con las metas institucionales y las necesidades de los estudiantes."
+      ],
+      "prerrequisitos": "Educación: Teorías y retos del aprendizaje",
+      "obligatoriaEn": [
+        "Licenciatura en Artes",
+        "Licenciatura en Biología",
+        "Licenciatura en Educación Infantil",
+        "Licenciatura en Español y Filología",
+        "Licenciatura en Filosofía",
+        "Licenciatura en Física",
+        "Licenciatura en Historia",
+        "Licenciatura en Matemáticas",
+        "Licenciatura en Química"
+      ],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "85967",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "pmwut82suzys"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82svhaf",
+      "titulo": "PROBABILIDAD ESCOLAR",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-2204",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-2204.webp",
+      "descripcion": [
+        "El curso de Probabilidad escolar se desarrolla en dos partes. En la primera parte, se abordan los conceptos, procedimientos, representaciones y fenómenos asociados a la probabilidad, conforme a los Estándares Básicos de Competencias en Matemáticas. Allí, se busca que los estudiantes se apropien del contenido y lo usen para la resolución de problemas contextualizados. En la segunda parte, se proporcionan conceptos y técnicas para la planificación de clases de probabilidad escolar en los diferentes niveles educativos."
+      ],
+      "prerrequisitos": "Educación General: Cálculo Vectorial (solo quienes ingresaron antes de 202710)",
+      "obligatoriaEn": [
+        "Licenciatura en Matemáticas"
+      ],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "85490",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": []
+        }
+      ]
+    },
+    {
+      "id": "cmwut82svihz",
+      "titulo": "EDUCACIÓN MATEMÁTICA 1",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-2205",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-2205.webp",
+      "descripcion": [],
+      "prerrequisitos": "Educación General: Precálculo",
+      "obligatoriaEn": [
+        "Licenciatura en Matemáticas"
+      ],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "85968",
+          "horario": [
+            {
+              "dia": "JUEVES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p8",
+            "pmwut82svp48"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82svyl0",
+      "titulo": "RETOS PEDAGÓGICOS DE LAS DISCIPLINAS 1 - DOBLE PROGRAMA",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-3109",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-3109.webp",
+      "descripcion": [],
+      "prerrequisitos": "Educación General: Inglés 3 o English 06",
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "84559",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82sw3uc",
+      "titulo": "RETOS PEDAGÓGICOS DE LAS DISCIPLINAS 2 - DOBLE PROGRAMA",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-3110",
+      "creditos": 3,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-3110.webp",
+      "descripcion": [],
+      "prerrequisitos": "Educación: Retos pedagógicos de las disciplinas 1 - doble programa",
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "84561",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82swz30",
+      "titulo": "PRÁCTICA PROFESIONAL 1 - DOBLE PROGRAMA",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-3113",
+      "creditos": 10,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-3113.webp",
+      "descripcion": [],
+      "prerrequisitos": "Educación General: English 06\nEducación: Lab. la educación en Colombia · Lab el sentido de la educación · Práctica formativa 3 · El sentido de la educación · La educación en Colombia",
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "87580",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p15"
+          ]
         },
         {
-          "nrc": "83914",
-          "horario": [],
+          "nrc": "87527",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82swjil",
+      "titulo": "PRÁCTICA PROFESIONAL 2 - DOBLE PROGRAMA",
+      "categoria": "pregrado",
+      "tipo": "LIC",
+      "codigo": "EDUC-3114",
+      "creditos": 10,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-3114.webp",
+      "descripcion": [],
+      "prerrequisitos": "Educación: Práctica profesional 1 - doble programa",
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "87581",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p11"
+          ]
+        },
+        {
+          "nrc": "87528",
+          "horario": [
+            {
+              "dia": "MIÉRCOLES",
+              "inicio": "2:00 PM",
+              "fin": "4:50 PM"
+            }
+          ],
+          "profesores": [
+            "p11"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82swn3w",
+      "titulo": "MÉTODOS CUANTITATIVOS DE INVESTIGACIÓN",
+      "categoria": "posgrado",
+      "tipo": "MS",
+      "codigo": "EDUC-4026",
+      "creditos": 4,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-4026.webp",
+      "descripcion": [
+        "Diversas tradiciones de investigación en educación y ciencias sociales han presentado los métodos cuantitativos y cualitativos como enfoques antagónicos. Mientras los primeros suelen asociarse con el análisis descriptivo e inferencial de patrones y relaciones entre variables, los segundos privilegian aproximaciones comprensivas y contextuales de los fenómenos. No obstante, esta oposición resulta \nreduccionista, pues ambos enfoques constituyen formas complementarias de aproximarse a los sistemas y procesos educativos. En este marco, el curso se concentra en el potencial que tienen los métodos cuantitativos para describir, analizar e interpretar la realidad educativa con rigor empírico.",
+        "Asimismo, enfatiza que la atribución de causalidad no se deriva automáticamente de los modelos estadísticos, sino que exige diseños de investigación sólidos, supuestos explícitos y una reflexión metodológica cuidadosa.",
+        "Como promesa de valor, el curso no profundiza en las bases matemáticas formales que sustentan las técnicas estadísticas. En cambio, prioriza una comprensión conceptual y aplicada de los principales métodos cuantitativos y su pertinencia para responder distintas preguntas de investigación. Se busca que los estudiantes desarrollen las competencias necesarias para interpretar literatura académica \nbasada en evidencia cuantitativa, analizar críticamente sus resultados y discutir sus alcances y limitaciones. Asimismo, el curso promueve la aplicación de estas herramientas mediante el trabajo con datos reales, fomentando una interpretación rigurosa y una comunicación clara de los hallazgos."
+      ],
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "86598",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": [
+            "p16"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82swire",
+      "titulo": "DESARROLLO HUMANO Y EDUCACIÓN",
+      "categoria": "posgrado",
+      "tipo": "MS",
+      "codigo": "EDUC-4118",
+      "creditos": 4,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-4118.webp",
+      "descripcion": [
+        "Las últimas dos décadas de investigación en varias disciplinas han cambiado nuestra \ncomprensión del desarrollo humano. Hoy las evidencias indican que los diferentes dominios del desarrollo (social, emocional, cognitivo) están entrelazados: la expresión de nuestra estructura genética y una parte significativa del desarrollo de nuestro cerebro dependen de nuestras experiencias en el mundo y de las relaciones que establecemos a lo largo de la vida. También sabemos que el aprendizaje puede promoverse efectivamente en ambientes enriquecidos y estimulantes en los que priman las relaciones de cuidado con apoyo emocional y social. Uno de \nlos retos que hoy tenemos es incorporar ese conocimiento a las prácticas, programas y políticas educativas para asegurar que todos los niños y jóvenes puedan desarrollar plenamente su potencial. Tanto los psicólogos como los profesores son fundamentales en la creación de ambientes educativos en los que se use e incorpore lo que indica la evidencia para asegurar el desarrollo de todos los niños y jóvenes. Por esta razón, en este curso los estudiantes de educación conocerán y comprenderán los principales resultados de la investigación en desarrollo humano para que puedan incorporarlos a su práctica docente y construir ambientes de aprendizaje efectivos. De la misma manera, los estudiantes de otras disciplinas podrán aproximarse a los retos pedagógicos que les plantea el desarrollo y aportar a la calidad de los procesos de enseñanza y aprendizaje. Antes que aprender una secuencia de logros en el desarrollo, el curso está diseñado para pensar el desarrollo y su relación con el aprendizaje y la práctica docente. Este es un curso interdisciplinario, en el que la convergencia de dos de las disciplinas centrales a las ciencias del \ndesarrollo humano aporta a la formación de los estudiantes."
+      ],
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "86599",
+          "horario": [
+            {
+              "dia": "MARTES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": [
+            "p11",
+            "p6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82swgoy",
+      "titulo": "EDUCACIÓN PROPIA, INTERCULTURAL Y ANTIRRACISTA",
+      "categoria": "posgrado",
+      "tipo": "MS",
+      "codigo": "EDUC-4126",
+      "creditos": 4,
+      "semanas": 16,
+      "modalidad": "PRESENCIAL",
+      "imagen": "media/curso-educ-4126.webp",
+      "descripcion": [
+        "Este curso explora críticamente las relaciones entre educación, cultura, poder y justicia social en contextos diversos. A partir de los aportes de los pueblos indígenas, afrodescendientes y otras comunidades históricamente marginadas, analiza las bases conceptuales y políticas de la educación propia, la interculturalidad y las pedagogías antirracistas. Los estudiantes examinarán cómo los sistemas educativos pueden reproducir o transformar desigualdades, y desarrollarán propuestas pedagógicas, curriculares e investigativas orientadas al reconocimiento de la diversidad, el diálogo de saberes, la equidad y la construcción de sociedades más democráticas e inclusivas en Colombia y América Latina."
+      ],
+      "observaciones": "Solo para estudiantes de Maestría en Produndización de la corte Chocó.",
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "87597",
+          "horario": [
+            {
+              "dia": "LUNES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": [
+            "p7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82sxxgd",
+      "titulo": "BIENESTAR Y APRENDIZAJE SOCIOEMOCIONAL",
+      "categoria": "posgrado",
+      "tipo": "MS",
+      "codigo": "EDUC-4127",
+      "creditos": 4,
+      "semanas": 16,
+      "modalidad": "HÍBRIDA",
+      "imagen": "media/curso-educ-4127.webp",
+      "descripcion": [
+        "Este curso aborda el bienestar como una condición que se construye en la relación entre personas, prácticas y condiciones institucionales. El curso parte de una pregunta central: ¿qué hace posible que estudiantes, docentes, líderes y comunidades florezcan y aprendan juntos? A partir del modelo de demandas y recursos laborales, el curso analiza cómo las demandas del trabajo educativo interactúan con los recursos personales de cada docente y con los recursos institucionales disponibles. Desde allí, se examina el bienestar en cuatro niveles: el de los estudiantes, el de los docentes, el de los líderes y el del colectivo.",
+        "El curso combina marco conceptual, evidencia empírica sobre programas de aprendizaje socioemocional y prácticas de cuidado de sí mismo y de otros. Las prácticas individuales de autocuidado se abordan siempre junto con las condiciones institucionales que las sostienen. Al final, cada participante podrá diseñar una propuesta de plan de acción o de intervención, basada en evidencia, para promover su propio bienestar y el de su comunidad educativa."
+      ],
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "87598",
+          "horario": [
+            {
+              "dia": "MARTES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
+          "profesores": [
+            "p15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82sx2xs",
+      "titulo": "EDUCACIÓN EN EMERGENCIAS",
+      "categoria": "posgrado",
+      "tipo": "MS",
+      "codigo": "EDUC-4128",
+      "creditos": 4,
+      "semanas": 16,
+      "modalidad": "VIRTUAL",
+      "imagen": "media/curso-educ-4128.webp",
+      "descripcion": [],
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "87599",
+          "horario": [
+            {
+              "dia": "SÁBADO",
+              "inicio": "7:00 AM",
+              "fin": "9:50 AM"
+            }
+          ],
+          "profesores": [
+            "p25"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmwut82sx1nx",
+      "titulo": "MENTALIDAD DE CRECIMIENTO PARA LIDERES",
+      "categoria": "posgrado",
+      "tipo": "MS",
+      "codigo": "EDUC-4129",
+      "creditos": 4,
+      "semanas": 16,
+      "modalidad": "HÍBRIDA",
+      "imagen": "media/curso-educ-4129.webp",
+      "descripcion": [
+        "Todas las personas somos líderes. Liderar no depende de un cargo ni de un contexto específico, es una habilidad que se desarrolla y se fortalece con la práctica, ya sea en un aula, en una institución, en una organización, en un equipo o en la vida cotidiana. Esta materia parte de esa premisa y de una idea sencilla: la mentalidad de quien lidera se contagia. Lo que creemos sobre el talento, el esfuerzo y el error se nota en cómo damos retroalimentación, cómo reaccionamos cuando algo sale mal y qué conversaciones nos permitimos tener. Por eso invitamos a las y los estudiantes de la maestría a examinar su propia mentalidad con rigor y honestidad, y a comprender cómo influye en las personas y comunidades con las que trabajan. A lo largo del curso estudiaremos la mentalidad fija y la mentalidad de crecimiento, la seguridad psicológica como condición para que los equipos aprendan, la confianza como base del liderazgo, la empatía como una habilidad que se entrena, el error y la lucha productiva como motores de aprendizaje, la retroalimentación que impulsa el crecimiento, las conversaciones que abren o cierran posibilidades y el liderazgo frente a los cambios y los retos que se presentan. La materia combina lecturas y marcos teóricos con actividades vivenciales, análisis de casos y espacios de reflexión, y se articula con trabajos aplicados a contextos reales, en los que cada estudiante diagnostica, diseña e implementa estrategias en su propia institución, organización o equipo. Al finalizar, cada participante cuenta con herramientas concretas y un plan de acción fundamentado para liderar desde la mentalidad de crecimiento, sin importar el contexto en el que se mueva."
+      ],
+      "obligatoriaEn": [],
+      "electivaEn": [],
+      "secciones": [
+        {
+          "nrc": "87600",
+          "horario": [
+            {
+              "dia": "JUEVES",
+              "inicio": "5:00 PM",
+              "fin": "7:50 PM"
+            }
+          ],
           "profesores": []
         }
       ]
@@ -2073,6 +2919,24 @@ window.OFERTA = {
       "nombre": "Edwin Giovanni Ussa Valderrama",
       "cargo": "Profesor de Cátedra",
       "bio": []
+    },
+    {
+      "id": "pmwut82suzys",
+      "nombre": "Irma Alicia Flores Hinojos",
+      "imagen": "media/prof-irma.webp",
+      "bio": []
+    },
+    {
+      "id": "pmwut82svp48",
+      "nombre": "Alvaro Andres Pinzon Ricaurte",
+      "bio": []
+    },
+    {
+      "id": "pmwut82sxdtl",
+      "nombre": "Luz Adriana Osorio Gomez",
+      "bio": []
     }
-  ]
+  ],
+  "periodo": "2027-1",
+  "periodoCodigo": "202710"
 };
