@@ -82,7 +82,31 @@
     $("#estado").textContent = prob.length ? prob[0] : s ? "Cambios sin publicar" : "Sin cambios";
     $("#guardar").disabled = !s || prob.length > 0;
     $("#descartar").hidden = !s;
+    programarBorrador();
     if (repintarListas) { pintarListaCursos(); pintarListaProfes(); }
+  }
+
+  /* ---------- Borrador automático ----------
+     Lo que no se ha publicado queda guardado en este navegador, por si la pestaña se cierra o se recarga. */
+  const BORRADOR = "oferta_borrador";
+  let tBorrador, borradorPropio = false;   // solo se borra el borrador que esta pestaña guardó o recuperó
+  function programarBorrador() { clearTimeout(tBorrador); tBorrador = setTimeout(guardarBorrador, 400); }
+  function guardarBorrador() {
+    clearTimeout(tBorrador);
+    if (!LS) return;
+    if (!sucio()) { if (borradorPropio) { LS.removeItem(BORRADOR); borradorPropio = false; } return; }
+    try { LS.setItem(BORRADOR, JSON.stringify({ base, D, fotos: Object.entries(pendientes).map(([ruta, v]) => [ruta, v.dataUrl]) })); borradorPropio = true; }
+    catch (e) { LS.removeItem(BORRADOR); $("#estado").textContent += " · no caben en el borrador automático: publica o descarga antes de cerrar"; }
+  }
+  function recuperarBorrador() {
+    let b = null;
+    try { b = JSON.parse(LS?.getItem(BORRADOR) || "null"); } catch (e) {}
+    if (!b?.D?.cursos || !b.D.profesores) return;
+    if (generar(b.D) === base) { LS.removeItem(BORRADOR); return; }   // ya se publicó
+    if (b.base !== base && !confirm("Hay un borrador sin publicar, hecho sobre una versión anterior del sitio.\n\nAceptar: recuperarlo (al publicarlo reemplazaría lo que se publicó después).\nCancelar: eliminar el borrador y usar lo publicado.")) { LS.removeItem(BORRADOR); return; }
+    D = b.D; pendientes = Object.fromEntries((b.fotos || []).map(([ruta, dataUrl]) => [ruta, { dataUrl, b64: dataUrl.split(",")[1] }])); borradorPropio = true;
+    sel = { cursos: cursosPorCodigo()[0]?.id, profes: D.profesores[0]?.id };
+    aviso("Se recuperaron tus cambios sin publicar.");
   }
 
   /* ---------- Utilidades de formulario ---------- */
@@ -948,8 +972,10 @@
   $("#sincronizar").addEventListener("click", sincronizar);
   $("#periodo").addEventListener("input", (e) => { D.periodo = e.target.value.trim(); cambio(false); });
   $("#nuevo-profe").addEventListener("click", nuevoProfe);
+  window.addEventListener("pagehide", guardarBorrador);
   window.addEventListener("beforeunload", (e) => { if (sucio()) { e.preventDefault(); e.returnValue = ""; } });
 
+  recuperarBorrador();
   pintarGitHub();
   pintarPeriodo();
   modo();
