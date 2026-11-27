@@ -235,6 +235,8 @@ function courseCard(c, track, i) {
     const o = obligLic(c);
     if (o) reqHtml = '<div class="reqs"><span class="badge oblig">OBLIGATORIA' + (o === 'todas' ? '' : ' · ' + (o.length === 1 ? esc(o[0].replace('Licenciatura en ', '').toUpperCase()) : o.length + ' LICENCIATURAS')) + '</span></div>';
   }
+  const notaComun = c.secciones.length && c.secciones.every(s => s.nota && s.nota === c.secciones[0].nota) ? c.secciones[0].nota : '';
+  if (notaComun) reqHtml = reqHtml ? reqHtml.replace('<div class="reqs">', () => '<div class="reqs"><span class="badge nota">' + esc(notaComun.toUpperCase()) + '</span>') : '<div class="reqs"><span class="badge nota">' + esc(notaComun.toUpperCase()) + '</span></div>';
   const secBadge = c.secciones.length > 1 ? '<span class="badge sec">' + c.secciones.length + ' secc.</span>' : '';
   const img = c.imagen ? '<img src="' + esc(c.imagen) + '" alt="" loading="lazy">' : '';
   const h3 = (t) => '<h3 class="display">' + esc(tit(t)) + (c.titulo2 ? '<br>' + esc(tit(c.titulo2)) : '') + '</h3>';
@@ -270,10 +272,13 @@ function filterBar(courses, track) {
   }
   return h + '</div>';
 }
+// «Trabajo de grado 1» encuentra «Trabajo de grado I»: los romanos sueltos (I–VI) se comparan como números
+const ROMANOS = { i: '1', ii: '2', iii: '3', iv: '4', v: '5', vi: '6' };
+const normB = (s) => normP(s).replace(/\b(iii|ii|iv|vi|v|i)\b/g, (m) => ROMANOS[m]);
 function applyFilters(courses, track) {
-  const q = normP(state.search);
+  const q = normB(state.search);
   return courses.filter(c => {
-    if (q && !normP(c.titulo).includes(q)) return false;
+    if (q && !normB(c.titulo).includes(q)) return false;
     if (state.modality !== 'all' && c.modalidad !== state.modality) return false;
     if (state.requirement !== 'all' && !requirementsForTrack(c.obligatoriaEn, c.electivaEn, track).includes(state.requirement)) return false;
     return true;
@@ -377,6 +382,7 @@ function openCourse(id) {
       if (s.nrc) hdr.push('<span style="font-size:.72rem;color:#737373">NRC ' + esc(s.nrc) + '</span>');
       const cs = cuposSpan([s], 'cupos-sec'); if (cs) hdr.push(cs);
       if (hdr.length) h += '<div style="display:flex;align-items:center;gap:6px 12px;flex-wrap:wrap">' + hdr.join('') + '</div>';
+      if (s.nota) h += '<div class="snota">' + esc(s.nota) + '</div>';
       if ((s.horario || []).length) h += '<div class="slotwrap">' + s.horario.map(b => '<div class="slot"><div class="d display">' + esc(b.dia) + '</div><div class="h">' + esc(b.inicio) + ' – ' + esc(b.fin) + '</div></div>').join('') + '</div>';
       const ps = profsDe(s);
       if (ps.length) h += '<div style="display:flex;flex-wrap:wrap;gap:4px 12px">' + ps.map(p => '<button class="proflink" onclick="openProf(' + jsq(p.id) + ')">' + esc(p.nombre) + (p.cargo ? ' · ' + esc(p.cargo) : '') + '</button>').join('') + '</div>';

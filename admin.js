@@ -280,6 +280,7 @@
         const g = document.createElement("div");
         g.className = "ad-rejilla";
         g.appendChild(campo("NRC", texto(s.nrc, (v) => { s.nrc = v.trim(); }, { placeholder: "74944" })));
+        g.appendChild(campo("Nota de la sección", texto(s.nota, (v) => { s.nota = v.trim(); }, { placeholder: "Convenio Chocó" }), "Opcional. Se destaca en la ficha; si todas las secciones tienen la misma nota, sale también en la tarjeta."));
         box.appendChild(g);
 
         box.insertAdjacentHTML("beforeend", `<p class="ad-seccion" style="margin-top:14px">Horario</p>`);
@@ -706,7 +707,8 @@
       const secciones = secs.map((s) => ({
         nrc: s.nrc,
         horario: horarioDe(s),
-        profesores: [...new Set((s.instructors || []).filter((i) => i.name && i.name.trim()).map((i) => profeDe(d, i.name, r.profesNuevos)))]
+        profesores: [...new Set((s.instructors || []).filter((i) => i.name && i.name.trim()).map((i) => profeDe(d, i.name, r.profesNuevos)))],
+        nota: ((c && c.secciones) || []).find((x) => x.nrc === s.nrc)?.nota   // la nota la pone la Facultad: se conserva por NRC
       }));
       const datos = { secciones, creditos: parseInt(secs[0].credits, 10) || "", semanas: parseInt(secs[0].ptrmdesc, 10) || 16, modalidad: modalidadDe(secs) };
       if (c) {

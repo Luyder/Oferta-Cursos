@@ -118,6 +118,8 @@ header.bar{ position:sticky; top:0; z-index:30; background:rgba(255,255,255,.9);
 .card .foot{ position:absolute; z-index:1; bottom:12px; left:0; right:0; display:flex; justify-content:center; gap:6px; }
 .badge.sec{ background:var(--green); color:#000; }
 .badge.cat{ background:#000; color:#fff; }
+.badge.nota{ background:#c42c22; color:#fff; }
+.snota{ align-self:flex-start; background:#fdecea; color:#a3241b; border-left:3px solid #c42c22; padding:4px 10px; font-weight:700; font-size:.85rem; }
 .card .foot{ flex-wrap:wrap; }
 .badge.cupos{ background:#fff; color:#000; border:1px solid #000; }
 .badge.cupos.lleno{ background:#c42c22; color:#fff; border-color:#c42c22; }

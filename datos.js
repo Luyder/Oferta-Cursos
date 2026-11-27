@@ -67,40 +67,6 @@ window.OFERTA = {
       ]
     },
     {
-      "id": "c88",
-      "titulo": "CBU - MENTALIDAD DE CRECIMIENTO, APRENDIZAJE Y CONEXIONES HUMANAS",
-      "categoria": "pregrado",
-      "tipo": "LIC",
-      "codigo": "CBUH-1026",
-      "creditos": 3,
-      "semanas": 16,
-      "modalidad": "PRESENCIAL",
-      "imagen": "media/course-88.webp",
-      "descripcion": [],
-      "obligatoriaEn": [],
-      "electivaEn": [],
-      "secciones": [
-        {
-          "nrc": "84632",
-          "horario": [
-            {
-              "dia": "MARTES",
-              "inicio": "12:30 PM",
-              "fin": "1:50 PM"
-            },
-            {
-              "dia": "JUEVES",
-              "inicio": "12:30 PM",
-              "fin": "1:50 PM"
-            }
-          ],
-          "profesores": [
-            "p18"
-          ]
-        }
-      ]
-    },
-    {
       "id": "c87",
       "titulo": "CBU - EDUCACIÓN Y DEMOCRACIA",
       "categoria": "pregrado",
@@ -358,7 +324,7 @@ window.OFERTA = {
     },
     {
       "id": "c81",
-      "titulo": "MINDSET LAB",
+      "titulo": "SEMILLERO MINDSET LAB",
       "categoria": "pregrado",
       "tipo": "LIC",
       "codigo": "EDUC-2002",
@@ -623,7 +589,7 @@ window.OFERTA = {
         "La práctica es un escenario de formación académica y de preparación para el mundo laboral en el cual los estudiantes desarrollan interacciones que enriquecen su dimensión personal, profesional y ética, mientras adquieren y utilizan conocimientos y habilidades necesarias para el ejercicio de la disciplina que estudian. En el caso de las licenciaturas, la práctica pedagógica es el eje fundamental que orienta la formación del futuro maestro, le posibilita la construcción y socialización del saber pedagógico, y le permite la comprensión y apropiación de las dinámicas del aula y su contexto, reconociendo las diferentes dimensiones y modalidades de formación de niños, niñas, adolescentes, jóvenes y adultos. Es así, como las prácticas contribuyen a la formación de un maestro que, desde reflexión sistemática, crítica y ética de su acción pedagógica, emprende innovaciones que le ayudan a mejorar y garantizar los aprendizajes de sus estudiantes (MEN, 2014 y 2016), así como formar ciudadanos autónomos, pacíficos, incluyentes y participativos, orientados por un sentido de justicia y responsabilidad social. Entendemos la práctica como un espacio para aprender a enseñar y a investigar, la oportunidad de analizar modelos de enseñanza de otros colegas, conocer la cotidianidad de la escuela y un medio para afianzar el compromiso político y social con la educación.",
         "La práctica formativa I, en particular, está orientada al desarrollo de la capacidad de los estudiantes en ser observadores sistemáticos, rigurosos y responsables del ambiente social, emocional y de aprendizaje del aula, a través de un modelo de vanguardia. Esto les permite a los estudiantes matizar su observación, su juicio y su concepto con los lentes de un profesional crítico, orientado por la búsqueda de la excelencia de su profesión y de la construcción de una cultura de la ética del cuidado en el aula."
       ],
-      "prerrequisitos": "Educación: Teorías y retos del aprendizaje · Evaluación del aprendizaje",
+      "prerrequisitos": "Educación: Teorías y retos del aprendizaje",
       "observaciones": "Solo para estudiantes que cursan cuarto semestre en adelante.",
       "obligatoriaEn": [
         "Licenciatura en Artes",
@@ -662,7 +628,8 @@ window.OFERTA = {
           ],
           "profesores": []
         }
-      ]
+      ],
+      "fijarPrerrequisitos": true
     },
     {
       "id": "c73",
@@ -792,7 +759,7 @@ window.OFERTA = {
         "Implementar sistemáticamente diseños curriculares.",
         "En resumen, los estudiantes tendrán la oportunidad de complementar y profundizar en el conocimiento didáctico necesario para la planificación, puesta en práctica y evaluación de unidades didácticas."
       ],
-      "prerrequisitos": "Educación General: Inglés 3 o English 06\nEducación: Evaluación del aprendizaje · Clima de aula y competencias socioemocionales · Diseño curricular",
+      "prerrequisitos": "Educación General: English 06\nEducación: Evaluación del aprendizaje · Clima de aula y competencias socioemocionales · Diseño curricular",
       "correquisitos": "Práctica Profesional 1",
       "obligatoriaEn": [
         "Licenciatura en Artes",
@@ -831,7 +798,8 @@ window.OFERTA = {
           ],
           "profesores": []
         }
-      ]
+      ],
+      "fijarPrerrequisitos": true
     },
     {
       "id": "c69",
@@ -849,7 +817,7 @@ window.OFERTA = {
         "Así, los estudiantes del curso podrán proyectar como profesores una metodología que les permita a sus potenciales estudiantes apropiarse de esas ideas centrales para desempeñarse competentemente en diferentes contextos. Finalmente, estarán en capacidad de planear una evaluación que considere el error como oportunidad de aprendizaje y que valore las acciones de los estudiantes para que ellos mismos, y su profesor, reconozcan sus fortalezas, los aspectos a mejorar y las estrategias puntuales para superar las falencias identificadas.",
         "Los estudiantes que toman este curso lograrán lo descrito arriba gracias a la práctica constante, la reflexión sobre sus propias actividades, el intercambio con sus pares y el uso de la escritura académica para comunicar sus ideas, sus hallazgos y para dar cuenta de su propio proceso de aprendizaje."
       ],
-      "prerrequisitos": "Educación General: Inglés 3 o English 06\nEducación: Retos pedagógicos de la disciplina 1",
+      "prerrequisitos": "Educación General: English 06\nEducación: Retos pedagógicos de la disciplina 1",
       "correquisitos": "Práctica Profesional 2",
       "obligatoriaEn": [
         "Licenciatura en Artes",
@@ -877,7 +845,8 @@ window.OFERTA = {
             "p6"
           ]
         }
-      ]
+      ],
+      "fijarPrerrequisitos": true
     },
     {
       "id": "c68",
@@ -934,7 +903,8 @@ window.OFERTA = {
             "p10"
           ]
         }
-      ]
+      ],
+      "correquisitos": "Retos pedagógicos de la disciplina 1"
     },
     {
       "id": "c67",
@@ -950,7 +920,7 @@ window.OFERTA = {
         "La práctica es un escenario de formación académica y de preparación para el mundo laboral en el cual los estudiantes participan en interacciones que enriquecen su dimensión personal, profesional y ética, para profundizar y ampliar los conocimientos, habilidades y actitudes necesarios para el ejercicio de la docencia. En el caso de las licenciaturas, la práctica pedagógica es el eje fundamental que orienta la formación del maestro, le posibilita la construcción y socialización del saber pedagógico, y le permite la comprensión y apropiación de las dinámicas del aula y su contexto, reconociendo las diferentes dimensiones y modalidades de formación de sus estudiantes. Así, las prácticas contribuyen a la formación de un maestro que, desde la reflexión sistemática, crítica y ética de su acción pedagógica, emprende innovaciones que le ayudan mejorar y garantizar los aprendizajes de sus estudiantes, así como formar ciudadanos autónomos, pacíficos, incluyentes y participativos, orientados por un sentido de justicia y responsabilidad social. Entendemos la práctica como un espacio para aprender a enseñar y a investigar, y como la oportunidad de analizar modelos de enseñanza de otros colegas, conocer la cotidianidad de la escuela y un medio para afianzar el compromiso político y social con la educación. La práctica profesional está orientada hacia el análisis e integración de la multiplicidad de dimensiones del mundo escolar y de la intervención pedagógica para desarrollar el juicio experto del docente: las dinámicas de aprendizaje y enseñanza relacionadas con la práctica intencionada en el aula, los espacios y recursos para el aprendizaje, la escuela y su contexto, la cultura institucional, el clima escolar, la responsabilidad ética del docente y el sentido social y político de la educación. Por consiguiente, desarrollar el juicio experto del docente implica tomar conciencia de cuáles son las acciones y “movidas” pedagógicas que mejor se ajustan a su disciplina (el área); anticipar los posibles errores en los conceptos y en los procedimientos; identificar y analizar las soluciones incorrectas, alternativas o creativas (en vez de descartarlas o sólo juzgarlas); conocer las ideas que no están considerando sus estudiantes, entender cómo están entendiendo ellos y anticipar posibles malentendidos y sus confusiones; generar un ambiente cálido en el que priman el apoyo y el cuidado para que los estudiantes puedan explorar, equivocarse y sentirse motivados; y asegurar los recursos, estrategias y planeación que aseguren que se maximiza el tiempo para el aprendizaje.",
         "Desarrollar las competencias necesarias para ejercer de manera autónoma una docencia intencionada en la que los conocimientos, la observación, la planeación y la reflexión les permita asumir los retos profesionales en los contextos educativos."
       ],
-      "prerrequisitos": "Educación General: Inglés 3 o English 06\nEducación: Práctica profesional 1",
+      "prerrequisitos": "Educación: Práctica profesional 1",
       "observaciones": "Es necesario haber cursado el 100% de los cursos disciplinares.",
       "obligatoriaEn": [
         "Licenciatura en Artes",
@@ -978,7 +948,9 @@ window.OFERTA = {
             "p11"
           ]
         }
-      ]
+      ],
+      "fijarPrerrequisitos": true,
+      "correquisitos": "Retos pedagógicos de la disciplina 2"
     },
     {
       "id": "c66",
@@ -1093,7 +1065,8 @@ window.OFERTA = {
           ],
           "profesores": [
             "pmwut82suzys"
-          ]
+          ],
+          "nota": "Convenio Cúcuta"
         },
         {
           "nrc": "87157",
@@ -1106,7 +1079,8 @@ window.OFERTA = {
           ],
           "profesores": [
             "p17"
-          ]
+          ],
+          "nota": "Particulares"
         },
         {
           "nrc": "87158",
@@ -1117,7 +1091,8 @@ window.OFERTA = {
               "fin": "7:50 PM"
             }
           ],
-          "profesores": []
+          "profesores": [],
+          "nota": "Convenio Chocó"
         }
       ]
     },
@@ -1973,7 +1948,7 @@ window.OFERTA = {
       "modalidad": "PRESENCIAL",
       "imagen": "media/course-16.webp",
       "descripcion": [],
-      "prerrequisitos": "Una de estas opciones: Inglés doctorados 2 · Elaboración de propuesta II · Examen comprensivo · Prueba capacidad investigativa; o Avanzado investigación cualita; o Avanzado investigación cuantit",
+      "prerrequisitos": "Todos estos: Inglés doctorados 2 · Elaboración de propuesta II · Examen comprensivo · Prueba capacidad investigativa · Avanzado investigación cualitativa · Avanzado investigación cuantitativa",
       "obligatoriaEn": [
         "Doctorado en Educación"
       ],
@@ -2003,7 +1978,8 @@ window.OFERTA = {
           "horario": [],
           "profesores": []
         }
-      ]
+      ],
+      "fijarPrerrequisitos": true
     },
     {
       "id": "c12",
@@ -2191,27 +2167,6 @@ window.OFERTA = {
       ]
     },
     {
-      "id": "cmwut82stxdj",
-      "titulo": "PROYECTOS DE INVESTIGACION CONECTA-TE",
-      "categoria": "pregrado",
-      "tipo": "LIC",
-      "codigo": "EDUC-2003",
-      "creditos": 3,
-      "semanas": 16,
-      "modalidad": "PRESENCIAL",
-      "imagen": "media/curso-educ-2003.webp",
-      "descripcion": [],
-      "obligatoriaEn": [],
-      "electivaEn": [],
-      "secciones": [
-        {
-          "nrc": "86595",
-          "horario": [],
-          "profesores": []
-        }
-      ]
-    },
-    {
       "id": "cmwut82sue8r",
       "titulo": "ESTADÍSTICA PARA EDUCADORES",
       "categoria": "pregrado",
@@ -2388,7 +2343,7 @@ window.OFERTA = {
       "descripcion": [
         "El curso de Probabilidad escolar se desarrolla en dos partes. En la primera parte, se abordan los conceptos, procedimientos, representaciones y fenómenos asociados a la probabilidad, conforme a los Estándares Básicos de Competencias en Matemáticas. Allí, se busca que los estudiantes se apropien del contenido y lo usen para la resolución de problemas contextualizados. En la segunda parte, se proporcionan conceptos y técnicas para la planificación de clases de probabilidad escolar en los diferentes niveles educativos."
       ],
-      "prerrequisitos": "Educación General: Cálculo Vectorial (solo quienes ingresaron antes de 202710)",
+      "prerrequisitos": "Educación General: Precálculo",
       "obligatoriaEn": [
         "Licenciatura en Matemáticas"
       ],
@@ -2405,7 +2360,8 @@ window.OFERTA = {
           ],
           "profesores": []
         }
-      ]
+      ],
+      "fijarPrerrequisitos": true
     },
     {
       "id": "cmwut82svihz",
@@ -2656,6 +2612,7 @@ window.OFERTA = {
       "titulo": "EDUCACIÓN PROPIA, INTERCULTURAL Y ANTIRRACISTA",
       "categoria": "posgrado",
       "tipo": "MS",
+      "track": "profundizacion",
       "codigo": "EDUC-4126",
       "creditos": 4,
       "semanas": 16,
@@ -2664,7 +2621,7 @@ window.OFERTA = {
       "descripcion": [
         "Este curso explora críticamente las relaciones entre educación, cultura, poder y justicia social en contextos diversos. A partir de los aportes de los pueblos indígenas, afrodescendientes y otras comunidades históricamente marginadas, analiza las bases conceptuales y políticas de la educación propia, la interculturalidad y las pedagogías antirracistas. Los estudiantes examinarán cómo los sistemas educativos pueden reproducir o transformar desigualdades, y desarrollarán propuestas pedagógicas, curriculares e investigativas orientadas al reconocimiento de la diversidad, el diálogo de saberes, la equidad y la construcción de sociedades más democráticas e inclusivas en Colombia y América Latina."
       ],
-      "observaciones": "Solo para estudiantes de Maestría en Profundización de la corte Chocó.",
+      "observaciones": "Curso exclusivo para estudiantes del Convenio Chocó (Maestría en Educación – Profundización).",
       "obligatoriaEn": [],
       "electivaEn": [],
       "secciones": [
@@ -2679,7 +2636,8 @@ window.OFERTA = {
           ],
           "profesores": [
             "p7"
-          ]
+          ],
+          "nota": "Solo Convenio Chocó"
         }
       ]
     },
